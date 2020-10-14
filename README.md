@@ -16,7 +16,7 @@ This adds a simple SCSS bridge that you can configure in your config.toml to exc
 
 Add the module to your sites config.toml
 
-```
+```toml
 [module]
 [[imports]]
 path = "github.com/davidsneighbour/dnb-hugo-libs/bootstrap4"
@@ -24,7 +24,7 @@ path = "github.com/davidsneighbour/dnb-hugo-libs/bootstrap4"
 
 Add the stylesheet to your header, the js to your footer (note: you don't need javascript in many cases. If you don't use dropdowns, modals and all this dynamic stuff then you can leave the JS part out).
 
-```
+```html
 <head>
 {{ partialCached "assets/libs/bootstrap/scss/partials/libs/bootstrap-scss.html" }}
 </head>
@@ -40,7 +40,7 @@ Add the stylesheet to your header, the js to your footer (note: you don't need j
 
 Add the module to your sites config.toml
 
-```
+```toml
 [module]
 [[imports]]
 path = "github.com/davidsneighbour/dnb-hugo-libs/bootstrap5"
@@ -48,7 +48,7 @@ path = "github.com/davidsneighbour/dnb-hugo-libs/bootstrap5"
 
 Add the stylesheet to your header, the js to your footer (note: you don't need javascript in many cases. If you don't use dropdowns, modals and all this dynamic stuff then you can leave the JS part out).
 
-```
+```html
 <head>
 {{ partialCached "libs/bootstrap/scss/partials/libs/bootstrap-scss.html" }}
 </head>
