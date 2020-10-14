@@ -1,1 +1,1 @@
-# dnb-hugo-jslibs
+# dnb-hugo-libs
