@@ -12,6 +12,12 @@ This adds a simple SCSS bridge that you can configure in your config.toml to exc
 
 ### Bootstrap 4
 
+#### ToDo
+
+- make SCSS modules selectable
+- make JS modules selectable
+- add full JS module
+
 #### Installation
 
 Add the module to your sites config.toml
@@ -26,15 +32,25 @@ Add the stylesheet to your header, the js to your footer (note: you don't need j
 
 ```html
 <head>
-{{ partialCached "assets/libs/bootstrap/scss/partials/libs/bootstrap-scss.html" }}
+{{ partialCached "assets/libs/bootstrap/scss/partials/bootstrap-scss.html" }}
 </head>
 <body>
 ...
-{{ partialCached "assets/libs/bootstrap/scss/partials/libs/bootstrap-js.html" }}
+{{ partialCached "assets/libs/bootstrap/scss/partials/bootstrap-js.html" }}
 </body>
 ```
 
+Or you add the Bootstrap SCSS as an import to your theme styles:
+
+```scss
+@import "libs/bootstrap/scss/partials/libs/bootstrasp-scss";
+```
+
 ### Bootstrap 5
+
+#### ToDo
+
+- Everything. This library is not yet included.
 
 #### Installation
 
