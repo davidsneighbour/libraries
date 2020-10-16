@@ -12,13 +12,6 @@ This adds a simple SCSS bridge that you can configure in your config.toml to exc
 
 ### Bootstrap 4
 
-#### ToDo
-
-- make JS modules selectable
-- add full JS module
-
-#### Installation
-
 Add the module to your sites config.toml
 
 ```toml
@@ -36,12 +29,6 @@ Add the Bootstrap SCSS as an import to your theme styles:
 or copy it's contents into your own theme system and comment out unused parts.
 
 ### Bootstrap 5
-
-#### ToDo
-
-- Everything. This library is not yet included.
-
-#### Installation
 
 Add the module to your sites config.toml
 
