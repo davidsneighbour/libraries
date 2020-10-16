@@ -1,6 +1,6 @@
 {
   "name": "dnb-hugo-libs",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A collection of \"bridges\" to the tools that are being used in David's Neighbour's Hugo productions.",
   "main": "index.js",
   "scripts": {
