@@ -1,19 +1,22 @@
 {
   "name": "dnb-hugo-libs",
-  "version": "1.0.0",
+  "version": "0.0.0",
   "description": "A collection of \"bridges\" to the tools that are being used in David's Neighbour's Hugo productions.",
   "main": "index.js",
   "scripts": {
     "textlint": "textlint",
     "textlint-fix": "textlint --fix",
-    "lint-md": "remark ."
+    "lint-md": "remark .",
+    "release": "standard-version --release-as patch -a",
+    "release-next": "standard-version --release-as minor -a",
+    "release-major": "standard-version --release-as major -a"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/davidsneighbour/dnb-hugo-libs.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/davidsneighbour/dnb-hugo-libs/issues"
   },
@@ -135,6 +138,25 @@
     },
     "plugins": [
       "html"
+    ]
+  },
+  "config": {
+    "commitizen": {
+      "path": "node_modules/cz-customizable"
+    },
+    "cz-customizable": {
+      "config": ".cz_config.js"
+    }
+  },
+  "standard-version": {
+    "skip": {
+      "changelog": true
+    },
+    "bumpFiles": [
+      {
+        "filename": "package.json",
+        "type": "json"
+      }
     ]
   }
 }
