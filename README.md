@@ -14,7 +14,6 @@ This adds a simple SCSS bridge that you can configure in your config.toml to exc
 
 #### ToDo
 
-- make SCSS modules selectable
 - make JS modules selectable
 - add full JS module
 
@@ -28,23 +27,13 @@ Add the module to your sites config.toml
 path = "github.com/davidsneighbour/dnb-hugo-libs/bootstrap4"
 ```
 
-Add the stylesheet to your header, the js to your footer (note: you don't need javascript in many cases. If you don't use dropdowns, modals and all this dynamic stuff then you can leave the JS part out).
-
-```html
-<head>
-{{ partialCached "assets/libs/bootstrap/scss/partials/bootstrap-scss.html" }}
-</head>
-<body>
-...
-{{ partialCached "assets/libs/bootstrap/scss/partials/bootstrap-js.html" }}
-</body>
-```
-
-Or you add the Bootstrap SCSS as an import to your theme styles:
+Add the Bootstrap SCSS as an import to your theme styles:
 
 ```scss
-@import "libs/bootstrap/scss/partials/libs/bootstrasp-scss";
+@import "libs/bootstrap/scss/partials/bootstrap-scss";
 ```
+
+or copy it's contents into your own theme system and comment out unused parts.
 
 ### Bootstrap 5
 
@@ -62,14 +51,10 @@ Add the module to your sites config.toml
 path = "github.com/davidsneighbour/dnb-hugo-libs/bootstrap5"
 ```
 
-Add the stylesheet to your header, the js to your footer (note: you don't need javascript in many cases. If you don't use dropdowns, modals and all this dynamic stuff then you can leave the JS part out).
+Add the Bootstrap SCSS as an import to your theme styles:
 
-```html
-<head>
-{{ partialCached "libs/bootstrap/scss/partials/libs/bootstrap-scss.html" }}
-</head>
-<body>
-...
-{{ partialCached "libs/bootstrap/scss/partials/libs/bootstrap-js.html" }}
-</body>
+```scss
+@import "libs/bootstrap/scss/partials/bootstrap-scss";
 ```
+
+or copy it's contents into your own theme system and comment out unused parts.

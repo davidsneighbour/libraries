@@ -6,7 +6,10 @@ target = "layouts"
 path = "github.com/twbs/bootstrap"
 [[module.imports.mounts]]
 source = "scss"
-target = "assets/jslibs/bootstrap/scss"
+target = "assets/libs/bootstrap/scss"
+[[module.imports.mounts]]
+source = "vendor"
+target = "assets/vendor"
 [[module.imports.mounts]]
 source = "dist"
-target = "assets/jslibs/bootstrap/dist"
+target = "assets/libs/bootstrap/dist"

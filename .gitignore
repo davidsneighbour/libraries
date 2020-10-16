@@ -21,7 +21,7 @@
 # vendor/
 
 ### Go Patch ###
-/vendor/
+/vendor/build
 /Godeps/
 
 ### Hugo ###

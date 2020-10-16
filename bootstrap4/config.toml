@@ -8,5 +8,8 @@ path = "github.com/twbs/bootstrap"
 source = "scss"
 target = "assets/libs/bootstrap/scss"
 [[module.imports.mounts]]
+source = "vendor"
+target = "assets/vendor"
+[[module.imports.mounts]]
 source = "dist"
 target = "assets/libs/bootstrap/dist"
