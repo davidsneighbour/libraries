@@ -47,3 +47,7 @@ Add the Bootstrap SCSS as an import to your theme styles:
 ```
 
 or copy it's contents into your own theme system and comment out unused parts.
+
+### Twitter Icons 1.0.0
+
+see https://icons.getbootstrap.com/#icons
