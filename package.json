@@ -1,15 +1,15 @@
 {
   "name": "dnb-hugo-libs",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A collection of \"bridges\" to the tools that are being used in David's Neighbour's Hugo productions.",
   "main": "index.js",
   "scripts": {
     "textlint": "textlint",
     "textlint-fix": "textlint --fix",
     "lint-md": "remark .",
-    "release": "standard-version --release-as patch -a",
-    "release-next": "standard-version --release-as minor -a",
-    "release-major": "standard-version --release-as major -a"
+    "release": "standard-version --release-as patch -a && git push --follow-tags origin main",
+    "release-next": "standard-version --release-as minor -a && git push --follow-tags origin main",
+    "release-major": "standard-version --release-as major -a && git push --follow-tags origin main"
   },
   "repository": {
     "type": "git",
