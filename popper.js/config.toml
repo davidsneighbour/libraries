@@ -4,4 +4,3 @@ path = "github.com/popperjs/popper-core"
 [[module.imports.mounts]]
 source = "src"
 target = "assets/popper.js"
-cd
