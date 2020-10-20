@@ -13,6 +13,3 @@ target = "assets/vendor"
 [[module.imports.mounts]]
 source = "dist"
 target = "assets/libs/bootstrap/dist"
-[[module.imports.mounts]]
-source = "js/dist/"
-target = "assets/libs/bootstrap/js"
