@@ -50,4 +50,4 @@ or copy it's contents into your own theme system and comment out unused parts.
 
 ### Twitter Icons 1.0.0
 
-see https://icons.getbootstrap.com/#icons
+see [https://icons.getbootstrap.com/#icons]
