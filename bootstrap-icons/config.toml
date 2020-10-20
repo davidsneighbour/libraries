@@ -1,9 +1,39 @@
+##################################################################################
+# Output formats and structures for Netlify
+##################################################################################
+# see https://gohugo.io/templates/output-formats/
+# see https://gohugo.io/news/http2-server-push-in-hugo/
+# see https://gohugo.io/hugo-modules/theme-components/
+
 [module]
 [[module.mounts]]
 source = "layouts"
 target = "layouts"
-[[module.imports]]
-path = "github.com/twbs/icons"
+
 [[module.imports.mounts]]
 source = "icons"
 target = "static/assets/icons"
+
+[module.hugoVersion]
+extended = true
+min = "0.70.0"
+
+[outputFormats]
+
+[outputFormats.REDIR]
+  mediatype = "text/netlify"
+  baseName = "_redirects"
+  isPlainText = true
+  notAlternative = true
+
+[outputFormats.HEADERS]
+  mediatype = "text/netlify"
+  baseName = "_headers"
+  isPlainText = true
+  notAlternative = true
+
+[mediaTypes]
+
+[mediaTypes."text/netlify"]
+  suffixes = [""]
+  delimiter = ""
