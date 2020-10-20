@@ -1,0 +1,31 @@
+{
+  "name": "@dnb-hugo-libs/popper.js",
+  "version": "0.0.0",
+  "description": "Popper.js for Hugo",
+  "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
+  "homepage": "https://github.com/davidsneighbour/dnb-hugo-libs/tree/master/popper.js",
+  "license": "MIT",
+  "scripts": {
+    "release": "standard-version --release-as patch -a -t \"popper.js/v\" && git push --follow-tags origin main",
+    "release-next": "standard-version --release-as minor -a -t \"popper.js/v\" && git push --follow-tags origin main",
+    "release-major": "standard-version --release-as major -a -t \"popper.js/v\" && git push --follow-tags origin main"
+  },
+  "bugs": {
+    "url": "https://github.com/davidsneighbour/dnb-hugo-libs/issues"
+  },
+  "devDependencies": {
+    "standard-version": "9.0.0"
+  },
+  "standard-version": {
+    "skip": {
+      "changelog": true
+    },
+    "bumpFiles": [
+      {
+        "filename": "package.json",
+        "type": "json"
+      }
+    ]
+  },
+  "private": true
+}
