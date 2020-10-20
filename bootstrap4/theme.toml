@@ -1,0 +1,12 @@
+name = "DNB Hugo Libs / Bootstrap 4"
+license = "MIT"
+licenselink = "https://github.com/davidsneighbour/dnb-hugo-libs/blob/master/LICENSE"
+description = "Bootstrap 4 for Hugo"
+homepage = "https://github.com/davidsneighbour/dnb-hugo-libs"
+tags = ["netlify", "hugo", "hugo-theme-component"]
+features = []
+min_version = "0.70.0"
+
+[author]
+  name = "Patrick Kollitsch"
+  homepage = "https://github.com/davidsneighbour/dnb-hugo-libs/"

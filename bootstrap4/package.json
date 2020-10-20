@@ -1,0 +1,31 @@
+{
+  "name": "@dnb-hugo-libs/bootstrap4",
+  "version": "1.0.0",
+  "description": "Bootstrap 4 for Hugo",
+  "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
+  "homepage": "https://github.com/davidsneighbour/dnb-hugo-libs/tree/master/bootstrap4",
+  "license": "MIT",
+  "scripts": {
+    "release": "standard-version --release-as patch -a -t \"bootstrap-icons/v\" && git push --follow-tags origin main",
+    "release-next": "standard-version --release-as minor -a -t \"bootstrap-icons/v\" && git push --follow-tags origin main",
+    "release-major": "standard-version --release-as major -a -t \"bootstrap-icons/v\" && git push --follow-tags origin main"
+  },
+  "bugs": {
+    "url": "https://github.com/davidsneighbour/dnb-hugo-libs/issues"
+  },
+  "devDependencies": {
+    "standard-version": "9.0.0"
+  },
+  "standard-version": {
+    "skip": {
+      "changelog": true
+    },
+    "bumpFiles": [
+      {
+        "filename": "package.json",
+        "type": "json"
+      }
+    ]
+  },
+  "private": true
+}
