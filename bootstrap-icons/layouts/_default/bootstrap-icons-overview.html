@@ -1,0 +1,26 @@
+{{ define "main" }}
+<style>
+.row svg {
+    width: 100%;
+    height: auto;
+    margin-bottom: 1rem;
+    fill: currentColor;
+}
+</style>
+<article >
+    <header class="title">
+        <h2 class="entry-title">
+            <a href="{{ .Permalink }}">{{ .Title }}</a>
+        </h2>
+    </header>
+    <div class="text entry-content">
+        <dl class="row">
+            {{ range resources.Match "libs/bootstrap-icons/*.svg" }}
+                <dt class="col-md-1 col-sm-2">{{ .Content | safeHTML }}</dt>
+                {{ $name := substr (substr .Name 0 -4) 21 | lower }}
+                <dd class="col-md-3 col-sm-4 text-truncate" title="{{ $name }}">{{ $name }}</dd>
+            {{ end }}
+        </dl>
+    </div>
+</article>
+{{ end }}

@@ -1,0 +1,16 @@
+{{/*
+icon
+Will print the icon matching the string passed as "context"
+
+@author @yourstruly
+
+@context String (.)
+
+@access public
+
+@example - Go Template
+{{ partial "hugo-icons/icon" "cart" }}
+*/}}
+{{- with resources.Get (print "hugo-icons/icons/" .) -}}
+{{- .Content | safeHTML -}}
+{{- end -}}

@@ -2,6 +2,16 @@
 
 This is a Hugo theme component with helpers for Netlify redirects and headers. This type of redirection is faster and SEO wise better than Hugo's method of adding `meta-refresh` commands. The default headers added by this component contain proper content security policies, caching directives and improve security. 
 
+## Usage
+
+This module adds a content page at http://localhost:1313/dnb/bootstrap-icons/ that shows an overview of all available icons and their code.
+
+Call these icons as partials:
+
+```gotemplate
+{{ partialCached "bsicon" "arrow-right" }}
+```
+
 ## Installing
 
 Step 1: enable modules in your own repository
