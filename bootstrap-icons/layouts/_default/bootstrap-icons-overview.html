@@ -1,10 +1,10 @@
 {{ define "main" }}
 <style>
 .row svg {
-    width: 100%;
-    height: auto;
-    margin-bottom: 1rem;
-    fill: currentColor;
+width: 100%;
+height: auto;
+margin-bottom: 1rem;
+fill: currentColor;
 }
 </style>
 <article >
@@ -13,9 +13,16 @@
             <a href="{{ .Permalink }}">{{ .Title }}</a>
         </h2>
     </header>
+    <hr/>
     <div class="text entry-content">
         <dl class="row">
+            {{ $scratch := newScratch }}
             {{ range resources.Match "libs/bootstrap-icons/*.svg" }}
+                {{ $name := substr (substr .Name 0 -4) 21 | lower }}
+                {{ $scratch.SetInMap "icons" $name . }}
+            {{ end }}
+            {{ $icons := $scratch.Get "icons" }}
+            {{ range sort $icons }}
                 <dt class="col-md-1 col-sm-2">{{ .Content | safeHTML }}</dt>
                 {{ $name := substr (substr .Name 0 -4) 21 | lower }}
                 <dd class="col-md-3 col-sm-4 text-truncate" title="{{ $name }}">{{ $name }}</dd>
