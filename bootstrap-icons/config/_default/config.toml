@@ -6,13 +6,6 @@
 [mopdule.hugoVersion]
 min = "0.78.0"
 
-[[module.mounts]]
-source = "content"
-target = "content"
-[[module.mounts]]
-source = "layouts"
-target = "layouts"
-
 [[module.imports]]
 path = "github.com/twbs/icons"
 [[module.imports.mounts]]
