@@ -14,6 +14,9 @@
     "url": "https://github.com/davidsneighbour/dnb-hugo-libs/issues"
   },
   "devDependencies": {
+    "commitizen": "4.2.2",
+    "cz-customizable": "6.3.0",
+    "cz-customizable-ghooks": "2.0.0",
     "standard-version": "9.0.0"
   },
   "standard-version": {
