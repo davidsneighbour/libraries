@@ -1,6 +1,6 @@
 {
   "name": "@dnb-hugo-libs/popper.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Popper.js for Hugo",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
   "homepage": "https://github.com/davidsneighbour/dnb-hugo-libs/tree/master/popper.js",
