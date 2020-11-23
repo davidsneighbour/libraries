@@ -1,13 +1,16 @@
 [module]
+
 [[module.mounts]]
 source = "layouts"
 target = "layouts"
 
 [[module.imports]]
 path = "github.com/twbs/bootstrap"
+
 [[module.imports.mounts]]
 source = "scss"
 target = "assets/libs/bootstrap/scss"
+
 [[module.imports.mounts]]
 source = "dist"
 target = "assets/libs/bootstrap/dist"
