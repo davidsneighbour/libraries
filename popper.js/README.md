@@ -10,7 +10,7 @@ hugo mod init github.com/username/reponame
 
 Step 2: add the module to your required modules in config.toml
 
-```
+```toml
 [module]
 [[module.imports]]
 path = "github.com/davidsneighbour/dnb-hugo-libs/popper.js"
