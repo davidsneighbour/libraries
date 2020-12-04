@@ -1,5 +1,5 @@
 {
-  "name": "@dnb-hugo/libraries/bootstrap5",
+  "name": "@dnb-hugo-libraries/bootstrap5",
   "version": "1.1.1",
   "description": "Bootstrap 5 for Hugo",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
