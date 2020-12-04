@@ -1,6 +1,6 @@
 {
   "name": "@dnb-hugo-libraries/popper.js",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Popper.js for Hugo",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
   "homepage": "https://github.com/dnb-hugo/libraries/tree/master/popper.js",
@@ -35,19 +35,29 @@
   },
   "private": true,
   "commitlint": {
-    "extends": ["@commitlint/config-conventional"],
+    "extends": [
+      "@commitlint/config-conventional"
+    ],
     "rules": {
-      "body-max-line-length": [0, "always", 100],
-      "type-enum": [0, "always", [
-        "feat",
-        "fix",
-        "layouts",
-        "refactor",
-        "test",
-        "chore",
-        "wip",
-        "content"
-      ]]
+      "body-max-line-length": [
+        0,
+        "always",
+        100
+      ],
+      "type-enum": [
+        0,
+        "always",
+        [
+          "feat",
+          "fix",
+          "layouts",
+          "refactor",
+          "test",
+          "chore",
+          "wip",
+          "content"
+        ]
+      ]
     }
   }
 }
