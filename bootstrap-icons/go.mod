@@ -1,4 +1,4 @@
-module github.com/davidsneighbour/dnb-hugo-libs/bootstrap-icons
+module github.com/dnb-hugo/libraries/bootstrap-icons
 
 go 1.15
 

@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/dnb-hugo-jslibs.iml" filepath="$PROJECT_DIR$/.idea/dnb-hugo-jslibs.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/libraries.iml" filepath="$PROJECT_DIR$/.idea/libraries.iml" />
     </modules>
   </component>
 </project>

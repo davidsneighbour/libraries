@@ -1,4 +1,4 @@
-module github.com/davidsneighbour/dnb-hugo-libs/popper.js
+module github.com/dnb-hugo/libraries/popper.js
 
 go 1.15
 

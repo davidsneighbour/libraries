@@ -1,4 +1,4 @@
-module github.com/davidsneighbour/dnb-hugo-libs/bootstrap4
+module github.com/dnb-hugo/libraries/bootstrap4
 
 go 1.15
 

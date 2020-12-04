@@ -1,5 +1,5 @@
 {
-  "name": "dnb-hugo-libs",
+  "name": "@dnb-hugo/libraries",
   "version": "1.0.4",
   "description": "A collection of \"bridges\" to the tools that are being used in David's Neighbour's Hugo productions.",
   "main": "index.js",
@@ -13,14 +13,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/davidsneighbour/dnb-hugo-libs.git"
+    "url": "git+https://github.com/dnb-hugo/libraries.git"
   },
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/davidsneighbour/dnb-hugo-libs/issues"
+    "url": "https://github.com/dnb-hugo/libraries/issues"
   },
-  "homepage": "https://github.com/davidsneighbour/dnb-hugo-libs#readme",
+  "homepage": "https://github.com/dnb-hugo/libraries#readme",
   "devDependencies": {
     "commitizen": "4.2.2",
     "cz-customizable": "6.3.0",
@@ -28,6 +28,7 @@
     "standard-version": "9.0.0",
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "11.0.0",
+    "remark-preset-lint-dnb": "github:dnb-hugo/remark-preset-lint-dnb",
     "husky": "4.3.0"
   },
   "config": {
