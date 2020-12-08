@@ -8,6 +8,10 @@ target = "layouts"
 source = "assets"
 target = "assets"
 
+[[module.mounts]]
+source = "data/dnb/libraries-bootstrap5"
+target = "data/dnb/libraries-bootstrap5"
+
 [[module.imports]]
 path = "github.com/twbs/bootstrap"
 
@@ -18,3 +22,10 @@ target = "assets/libs/bootstrap/scss"
 [[module.imports.mounts]]
 source = "dist"
 target = "assets/libs/bootstrap/dist"
+
+[[module.imports]]
+path = "github.com/popperjs/popper-core"
+
+[[module.imports.mounts]]
+source = "src"
+target = "assets/popperjs"
