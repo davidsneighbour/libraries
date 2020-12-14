@@ -4,10 +4,10 @@
 
 This is a Hugo theme component adding Bootstrap 5. It also imports [popper.js](https://github.com/dnb-hugo/libraries/tree/main/popper.js). It mounts the following directories:
 
-- `assets/libs/bootstrap/scss` to Bootstraps `scss` directory
-- `assets/libs/bootstrap/dist` to Bootstraps `dist` directory
-- `assets/vendor/_rfs.scss` to `_rfs.scss`, a vendor requirement for compiling Bootstrap via SASS
-- `assets/libs/popper.js` to the popper.js `src` directory (see [popper.js module documentation](https://github.com/dnb-hugo/libraries/tree/main/popper.js) on how to use)
+-   `assets/libs/bootstrap/scss` to Bootstraps `scss` directory
+-   `assets/libs/bootstrap/dist` to Bootstraps `dist` directory
+-   `assets/vendor/_rfs.scss` to `_rfs.scss`, a vendor requirement for compiling Bootstrap via SASS
+-   `assets/libs/popper.js` to the popper.js `src` directory (see [popper.js module documentation](https://github.com/dnb-hugo/libraries/tree/main/popper.js) on how to use)
 
 ### Installing
 
@@ -31,7 +31,7 @@ The next time you run hugo it will download the latest version of the module.
 
 If you require explicit versions of Bootstrap here are the accompanying versions:
 
-- Bootstrap v5.0.0-beta1 - @dnb-hugo-libraries/bootstrap5 v1.2.0
+-   Bootstrap v5.0.0-beta1 - @dnb-hugo-libraries/bootstrap5 v1.2.0
 
 ### Other libraries in DNB Hugo Libraries
 
