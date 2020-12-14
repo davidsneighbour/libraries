@@ -7,7 +7,7 @@ updates:
   - package-ecosystem: "npm"
     directory: "/"
     schedule:
-      interval: "weekly"
+      interval: "daily"
       time: "07:00"
       timezone: "Asia/Bangkok"
     allow:
@@ -23,7 +23,7 @@ updates:
   - package-ecosystem: "npm"
     directory: "/bootstrap-icons"
     schedule:
-      interval: "weekly"
+      interval: "daily"
       time: "07:00"
       timezone: "Asia/Bangkok"
     allow:
@@ -39,7 +39,7 @@ updates:
   - package-ecosystem: "npm"
     directory: "/bootstrap4"
     schedule:
-      interval: "weekly"
+      interval: "daily"
       time: "07:00"
       timezone: "Asia/Bangkok"
     allow:
@@ -55,7 +55,7 @@ updates:
   - package-ecosystem: "npm"
     directory: "/bootstrap5"
     schedule:
-      interval: "weekly"
+      interval: "daily"
       time: "07:00"
       timezone: "Asia/Bangkok"
     allow:
@@ -71,7 +71,7 @@ updates:
   - package-ecosystem: "npm"
     directory: "/popper.js"
     schedule:
-      interval: "weekly"
+      interval: "daily"
       time: "07:00"
       timezone: "Asia/Bangkok"
     allow:
