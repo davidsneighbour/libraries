@@ -2,7 +2,7 @@
 
 ### Introduction
 
-This adds [popper.js](https://github.com/popperjs/popper-core) as a module to your Hugo repository and makes the libraries available mounted at `assets/popper.js/`. You can then use it as described in [the popper.js documentation](https://popper.js.org/).
+This adds [popper.js](https://github.com/popperjs/popper-core) as a module to your Hugo repository and makes the libraries available mounted at `assets/libs/popper.js/`. You can then use it as described in [the popper.js documentation](https://popper.js.org/).
 
 If you use [Bootstrap5](https://github.com/dnb-hugo/libraries/tree/main/bootstrap5) from DNB Hugo's libraries, then you don't need to manually include this module, it will be loaded as dependency by Bootstrap5.
 
@@ -42,7 +42,7 @@ The next time you run hugo it will download the latest version of the module.
 
 If you require explicit versions of popper.js here are the accompanying versions:
 
-- popper.js v2.5.4 - @dnb-hugo-libraries/popper.js v1.1.1
+- popper.js v2.5.4 - @dnb-hugo-libraries/popper.js v1.1.2
 
 ### Other libraries in DNB Hugo Libraries
 

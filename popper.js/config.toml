@@ -10,4 +10,4 @@ disable = false
 
 [[module.imports.mounts]]
 source = "src"
-target = "assets/popper.js"
+target = "assets/libs/popper.js"
