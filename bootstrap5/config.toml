@@ -1,12 +1,16 @@
 [module]
 
+[module.hugoVersion]
+extended = true
+min = "0.70.0"
+
 [[module.mounts]]
 source = "layouts"
 target = "layouts"
 
 [[module.mounts]]
-source = "assets"
-target = "assets"
+source = "assets/vendor/_rfs.scss"
+target = "assets/vendor/_rfs.scss"
 
 [[module.mounts]]
 source = "data/dnb/libraries-bootstrap5"
@@ -24,8 +28,4 @@ source = "dist"
 target = "assets/libs/bootstrap/dist"
 
 [[module.imports]]
-path = "github.com/popperjs/popper-core"
-
-[[module.imports.mounts]]
-source = "src"
-target = "assets/popperjs"
+path = "github.com/dnb-hugo/libraries/popper.js"
