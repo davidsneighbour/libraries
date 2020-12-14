@@ -1,6 +1,6 @@
 # DNB Hugo Libs
 
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/52a6f02f050d4414a99e7910a6882cef)](https://app.codacy.com/gh/dnb-hugo/libraries)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/cf99ef2a9da1464dae5628b1e8230921)](https://www.codacy.com/gh/dnb-hugo/libraries/dashboard)
 
 A collection of "bridges" to the tools that are being used in David's Neighbour's Hugo productions.
 
