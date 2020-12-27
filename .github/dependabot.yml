@@ -8,62 +8,58 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-      time: "07:00"
+      time: "18:00"
       timezone: "Asia/Bangkok"
-    allow:
-      - dependency-type: "production"
-      - dependency-type: "development"
     assignees:
       - "davidsneighbour"
     reviewers:
-      - "davidsneighbour"
+      - "dnb-hugo/dnb-hugo"
     target-branch: "main"
     open-pull-requests-limit: 999
+    pull-request-branch-name:
+      separator: "/"
 
   - package-ecosystem: "npm"
     directory: "/bootstrap-icons"
     schedule:
       interval: "daily"
-      time: "07:00"
+      time: "18:00"
       timezone: "Asia/Bangkok"
-    allow:
-      - dependency-type: "production"
-      - dependency-type: "development"
     assignees:
       - "davidsneighbour"
     reviewers:
-      - "davidsneighbour"
+      - "dnb-hugo/dnb-hugo"
     target-branch: "main"
     open-pull-requests-limit: 999
+    pull-request-branch-name:
+      separator: "/"
 
   - package-ecosystem: "npm"
     directory: "/bootstrap5"
     schedule:
       interval: "daily"
-      time: "07:00"
+      time: "18:00"
       timezone: "Asia/Bangkok"
-    allow:
-      - dependency-type: "production"
-      - dependency-type: "development"
     assignees:
       - "davidsneighbour"
     reviewers:
-      - "davidsneighbour"
+      - "dnb-hugo/dnb-hugo"
     target-branch: "main"
     open-pull-requests-limit: 999
+    pull-request-branch-name:
+      separator: "/"
 
   - package-ecosystem: "npm"
     directory: "/popper.js"
     schedule:
       interval: "daily"
-      time: "07:00"
+      time: "18:00"
       timezone: "Asia/Bangkok"
-    allow:
-      - dependency-type: "production"
-      - dependency-type: "development"
     assignees:
       - "davidsneighbour"
     reviewers:
-      - "davidsneighbour"
+      - "dnb-hugo/dnb-hugo"
     target-branch: "main"
     open-pull-requests-limit: 999
+    pull-request-branch-name:
+      separator: "/"
