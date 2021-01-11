@@ -34,6 +34,7 @@ The next time you run hugo it will download the latest version of the module.
 
 If you require explicit versions of Bootstrap here are the accompanying versions:
 
+-   Bootstrap Icons v1.3.0 - @dnb-hugo-libraries/bootstrap-icons v1.4.0
 -   Bootstrap Icons v1.2.1 - @dnb-hugo-libraries/bootstrap-icons v1.3.0
 
 ### Other libraries in DNB Hugo Libraries
