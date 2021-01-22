@@ -14,7 +14,7 @@
     "url": "https://github.com/dnb-hugo/libraries/issues"
   },
   "devDependencies": {
-    "commitizen": "4.2.2",
+    "commitizen": "4.2.3",
     "cz-customizable": "6.3.0",
     "cz-customizable-ghooks": "2.0.0",
     "standard-version": "9.1.0",
