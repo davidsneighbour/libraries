@@ -1,6 +1,6 @@
 {
   "name": "@dnb-hugo-libraries/lazysizes",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Lazysizes for Hugo",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
   "homepage": "https://github.com/dnb-hugo/libraries/tree/master/lazysizes",

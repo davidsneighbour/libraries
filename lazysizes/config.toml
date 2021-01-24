@@ -10,7 +10,7 @@ disabled = false
 
 [[module.imports.mounts]]
 source = "lazysizes-umd.js"
-target = "assets/libs/lazysizes.js"
+target = "assets/libs/lazySizes.js"
 
 [[module.imports.mounts]]
 source = "plugins"
