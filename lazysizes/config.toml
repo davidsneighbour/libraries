@@ -5,6 +5,7 @@ extended = true
 min = "0.78.0"
 
 [[module.imports]]
+# see https://github.com/aFarkas/lazysizes for details
 path = "github.com/aFarkas/lazysizes"
 disabled = false
 
@@ -13,7 +14,9 @@ source = "lazysizes-umd.js"
 target = "assets/libs/lazysizes/index.js"
 
 [[module.imports.mounts]]
+source = "lazysizes.js"
+target = "assets/libs/lazysizes/lazysizes.js"
+
+[[module.imports.mounts]]
 source = "plugins"
 target = "assets/libs/lazysizes/plugins"
-
-
