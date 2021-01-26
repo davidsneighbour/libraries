@@ -12,10 +12,6 @@ target = "layouts"
 source = "assets/vendor/_rfs.scss"
 target = "assets/vendor/_rfs.scss"
 
-[[module.mounts]]
-source = "data/dnb/libraries-bootstrap5"
-target = "data/dnb/libraries-bootstrap5"
-
 [[module.imports]]
 path = "github.com/twbs/bootstrap"
 
