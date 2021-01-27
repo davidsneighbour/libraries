@@ -1,6 +1,6 @@
 {
   "name": "@dnb-hugo-libraries/lunr.js",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Lunr.js for Hugo",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
   "homepage": "https://github.com/dnb-hugo/libraries/tree/master/lunr.js",
