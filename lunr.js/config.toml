@@ -1,0 +1,14 @@
+[module]
+
+[module.hugoVersion]
+extended = true
+min = "0.78.0"
+
+[[module.imports]]
+# see https://github.com/olivernn/lunr.js for details
+path = "github.com/olivernn/lunr.js"
+disabled = false
+
+[[module.imports.mounts]]
+source = "lunr.js"
+target = "assets/libs/lunr.js"
