@@ -31,7 +31,8 @@ The next time you run hugo it will download the latest version of the module.
 
 If you require explicit versions of Bootstrap here are the accompanying versions:
 
--   Bootstrap v5.0.0-beta1 - @dnb-hugo-libraries/bootstrap5 v1.2.0
+-   Bootstrap v5.0.0-beta2 - @dnb-hugo-libraries/bootstrap5 v1.3.0+
+-   Bootstrap v5.0.0-beta1 - @dnb-hugo-libraries/bootstrap5 v1.2.0+
 
 ### Other libraries in DNB Hugo Libraries
 
