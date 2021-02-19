@@ -1,63 +1,33 @@
 {
   "name": "@dnb-hugo-libraries/popper.js",
-  "version": "1.1.4",
   "description": "Popper.js for Hugo",
+  "version": "1.1.4",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
-  "homepage": "https://github.com/dnb-hugo/libraries/tree/master/popper.js",
-  "license": "MIT",
-  "scripts": {
-    "release": "standard-version --release-as patch -a -t \"popper.js/v\" --releaseCommitMessageFormat \"chore(release): popper.js/v{{currentTag}}\" && git push --follow-tags origin main",
-    "release-next": "standard-version --release-as minor -a -t \"popper.js/v\" --releaseCommitMessageFormat \"chore(release): popper.js/v{{currentTag}}\" && git push --follow-tags origin main",
-    "release-major": "standard-version --release-as major -a -t \"popper.js/v\" --releaseCommitMessageFormat \"chore(release): popper.js/v{{currentTag}}\" && git push --follow-tags origin main"
-  },
   "bugs": {
     "url": "https://github.com/dnb-hugo/libraries/issues"
   },
-  "devDependencies": {
-    "commitizen": "4.2.3",
-    "cz-customizable": "6.3.0",
-    "cz-customizable-ghooks": "2.0.0",
-    "standard-version": "9.1.0",
-    "@commitlint/cli": "11.0.0",
-    "@commitlint/config-conventional": "11.0.0",
-    "husky": "5.0.9"
-  },
-  "standard-version": {
-    "skip": {
-      "changelog": true
-    },
-    "bumpFiles": [
-      {
-        "filename": "package.json",
-        "type": "json"
-      }
-    ]
-  },
-  "private": true,
   "commitlint": {
     "extends": [
-      "@commitlint/config-conventional"
-    ],
-    "rules": {
-      "body-max-line-length": [
-        0,
-        "always",
-        100
-      ],
-      "type-enum": [
-        0,
-        "always",
-        [
-          "feat",
-          "fix",
-          "layouts",
-          "refactor",
-          "test",
-          "chore",
-          "wip",
-          "content"
-        ]
-      ]
-    }
+      "@dnb-hugo/commitlint-config"
+    ]
+  },
+  "devDependencies": {
+    "@dnb-hugo/browserslist-config": "github:dnb-hugo/browserslist-config",
+    "@dnb-hugo/commitlint-config": "github:dnb-hugo/commitlint-config",
+    "@dnb-hugo/eslint-config": "github:dnb-hugo/eslint-config",
+    "@dnb-hugo/remark-preset-lint": "github:dnb-hugo/remark-preset-lint",
+    "@dnb-hugo/standard-version-config": "github:dnb-hugo/standard-version-config",
+    "@dnb-hugo/stylelint-config": "github:dnb-hugo/stylelint-config",
+    "@dnb-hugo/textlint-config": "github:dnb-hugo/textlint-config",
+    "standard-version": "9.1.1"
+  },
+  "homepage": "https://github.com/dnb-hugo/libraries/tree/master/popper.js",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "release": "standard-version --release-as patch -a -t \"popper.js/v\" --releaseCommitMessageFormat \"chore(release): popper.js/v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
+    "release-major": "standard-version --release-as major -a -t \"popper.js/v\" --releaseCommitMessageFormat \"chore(release): popper.js/v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
+    "release-next": "standard-version --release-as minor -a -t \"popper.js/v\" --releaseCommitMessageFormat \"chore(release): popper.js/v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
+    "remark": "remark"
   }
 }

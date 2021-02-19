@@ -42,13 +42,14 @@ The next time you run hugo it will download the latest version of the module.
 
 If you require explicit versions of popper.js here are the accompanying versions:
 
--   popper.js v2.5.4 - @dnb-hugo-libraries/popper.js v1.1.2
+- popper.js v2.7.1 - @dnb-hugo-libraries/popper.js v1.1.5
+- popper.js v2.5.4 - @dnb-hugo-libraries/popper.js v1.1.2
 
 ### Other libraries in DNB Hugo Libraries
 
--   [Bootstrap Icons](https://github.com/dnb-hugo/libraries/tree/main/bootstrap-icons)
--   [Bootstrap 5](https://github.com/dnb-hugo/libraries/tree/main/bootstrap5)
--   [Popper.js](https://github.com/dnb-hugo/libraries/tree/main/popper.js)
+- [Bootstrap Icons](https://github.com/dnb-hugo/libraries/tree/main/bootstrap-icons)
+- [Bootstrap 5](https://github.com/dnb-hugo/libraries/tree/main/bootstrap5)
+- [Popper.js](https://github.com/dnb-hugo/libraries/tree/main/popper.js)
 
 ### Other elements in DNB Hugo
 
