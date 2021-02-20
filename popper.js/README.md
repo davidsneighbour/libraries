@@ -42,6 +42,7 @@ The next time you run hugo it will download the latest version of the module.
 
 If you require explicit versions of popper.js here are the accompanying versions:
 
+- popper.js v2.8.1 - @dnb-hugo-libraries/popper.js v1.1.8
 - popper.js v2.8.0 - @dnb-hugo-libraries/popper.js v1.1.7
 - popper.js v2.7.2 - @dnb-hugo-libraries/popper.js v1.1.6
 - popper.js v2.7.1 - @dnb-hugo-libraries/popper.js v1.1.5
