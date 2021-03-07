@@ -2,6 +2,7 @@
 @example
 {{ partial "bsicon" "cart" }}
 */}}
-{{- with resources.Get (print "icons/icons/" .) -}}
-{{- .Content | safeHTML -}}
+{{ $icon := (printf "libs/bootstrap-icons/%s.svg" .)}}
+{{- with resources.Get $icon -}}
+  {{- .Content | safeHTML -}}
 {{- end -}}

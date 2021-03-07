@@ -9,7 +9,7 @@ This module adds a content page at http://localhost:1313/dnb/bootstrap-icons/ th
 Call these icons as partials:
 
 ```gotemplate
-{{ partialCached "bsicon" "arrow-right" }}
+{{ partialCached "bsicon" "arrow-right" "arrow-right" }}
 ```
 
 ### Installing
