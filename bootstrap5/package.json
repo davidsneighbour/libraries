@@ -1,7 +1,7 @@
 {
   "name": "@dnb-hugo-libraries/bootstrap5",
   "description": "Bootstrap 5 for Hugo",
-  "version": "1.3.1",
+  "version": "1.3.2",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
   "bugs": {
     "url": "https://github.com/dnb-hugo/libraries/issues"
