@@ -12,8 +12,8 @@
     ]
   },
   "devDependencies": {
-    "@commitlint/cli": "11.0.0",
-    "@commitlint/config-conventional": "11.0.0",
+    "@commitlint/cli": "12.0.1",
+    "@commitlint/config-conventional": "12.0.1",
     "@dnb-hugo/browserslist-config": "github:dnb-hugo/browserslist-config",
     "@dnb-hugo/commitlint-config": "github:dnb-hugo/commitlint-config",
     "@dnb-hugo/eslint-config": "github:dnb-hugo/eslint-config",
@@ -21,15 +21,9 @@
     "@dnb-hugo/standard-version-config": "github:dnb-hugo/standard-version-config",
     "@dnb-hugo/stylelint-config": "github:dnb-hugo/stylelint-config",
     "@dnb-hugo/textlint-config": "github:dnb-hugo/textlint-config",
-    "husky": "5.0.9",
-    "standard-version": "9.1.0"
+    "standard-version": "9.1.1"
   },
   "homepage": "https://github.com/dnb-hugo/libraries/tree/master/bootstrap5",
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
   "license": "MIT",
   "private": true,
   "scripts": {
