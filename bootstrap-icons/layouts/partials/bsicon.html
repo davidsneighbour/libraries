@@ -1,8 +1,11 @@
-{{/*
+{{- /*
 @example
 {{ partial "bsicon" "cart" }}
-*/}}
-{{ $icon := (printf "libs/bootstrap-icons/%s.svg" .)}}
+*/ -}}
+{{- $iconname := . -}}
+{{- $icon := (printf "libs/bootstrap-icons/%s.svg" $iconname) -}}
 {{- with resources.Get $icon -}}
-  {{- .Content | safeHTML -}}
+  <span class="icon--bs icon--{{- $iconname -}}">
+    {{- .Content | safeHTML -}}
+  </span>
 {{- end -}}
