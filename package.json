@@ -1,7 +1,7 @@
 {
   "name": "@dnb-hugo-libraries",
   "description": "A collection of \"bridges\" to the tools that are being used in David's Neighbour's Hugo productions.",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
   "bugs": {
     "url": "https://github.com/dnb-hugo/libraries/issues"
