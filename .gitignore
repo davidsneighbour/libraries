@@ -1,6 +1,6 @@
 package-lock.json
 **/resources
-
+**/bin/replacements
 
 # Created by https://www.toptal.com/developers/gitignore/api/go,hugo,phpstorm,webstorm,sublimetext,node
 # Edit at https://www.toptal.com/developers/gitignore?templates=go,hugo,phpstorm,webstorm,sublimetext,node
