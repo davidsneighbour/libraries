@@ -6,7 +6,3 @@ require (
 	github.com/dnb-hugo/libraries/popper.js v1.1.12 // indirect
 	github.com/twbs/bootstrap v5.0.0+incompatible // indirect
 )
-
-replace github.com/dnb-hugo/components/favicon => /home/patrick/Projects/dnb-hugo/components/favicon
-
-replace github.com/dnb-hugo/shortcodes => /home/patrick/Projects/dnb-hugo/shortcodes
