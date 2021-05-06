@@ -1,53 +1,16 @@
 {
-  "name": "@dnb-hugo-libraries",
-  "description": "A collection of \"bridges\" to the tools that are being used in David's Neighbour's Hugo productions.",
-  "version": "1.0.7",
+  "name": "@dnb-hugo/libraries",
+  "description": "A collection of modules for the tools and libraries that are being used in DNB-Hugo productions.",
+  "version": "2.0.0",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
   "bugs": {
     "url": "https://github.com/dnb-hugo/libraries/issues"
   },
-  "config": {
-    "commitizen": {
-      "path": "node_modules/cz-customizable"
-    },
-    "cz-customizable": {
-      "config": ".cz_config.js"
-    }
-  },
-  "devDependencies": {
-    "@commitlint/cli": "12.1.1",
-    "@commitlint/config-conventional": "12.1.1",
-    "@dnb-hugo/remark-config": "2.0.3",
-    "commitizen": "4.2.3",
-    "cz-customizable": "6.3.0",
-    "cz-customizable-ghooks": "2.0.0",
-    "standard-version": "9.2.0"
-  },
   "homepage": "https://github.com/dnb-hugo/libraries#readme",
   "license": "MIT",
-  "main": "index.js",
   "private": true,
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dnb-hugo/libraries.git"
-  },
-  "scripts": {
-    "lint-md": "remark .",
-    "release": "standard-version --release-as patch -a && git push --follow-tags origin main",
-    "release-major": "standard-version --release-as major -a && git push --follow-tags origin main",
-    "release-next": "standard-version --release-as minor -a && git push --follow-tags origin main",
-    "textlint": "textlint",
-    "textlint-fix": "textlint --fix"
-  },
-  "standard-version": {
-    "skip": {
-      "changelog": true
-    },
-    "bumpFiles": [
-      {
-        "filename": "package.json",
-        "type": "json"
-      }
-    ]
   }
 }
