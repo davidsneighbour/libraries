@@ -9,8 +9,8 @@ source = "layouts"
 target = "layouts"
 
 [[module.mounts]]
-source = "assets/vendor/_rfs.scss"
-target = "assets/vendor/_rfs.scss"
+source = "assets/scss/bootstrap/_vendor"
+target = "assets/scss/bootstrap/vendor"
 
 [[module.imports]]
 path = "github.com/twbs/bootstrap"
