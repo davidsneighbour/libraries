@@ -5,6 +5,10 @@ extended = true
 min = "0.70.0"
 
 [[module.mounts]]
+source = "assets"
+target = "assets"
+
+[[module.mounts]]
 source = "assets/scss/bootstrap/_vendor"
 target = "assets/scss/bootstrap/vendor"
 
