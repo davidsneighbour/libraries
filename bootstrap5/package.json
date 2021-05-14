@@ -17,7 +17,7 @@
     "@dnb-hugo/eslint-config": "2.0.10",
     "@dnb-hugo/remark-config": "2.0.6",
     "@dnb-hugo/standard-version-config": "2.0.5",
-    "@dnb-hugo/stylelint-config": "2.0.19",
+    "@dnb-hugo/stylelint-config": "2.0.24",
     "@dnb-hugo/textlint-config": "2.0.5"
   },
   "homepage": "https://github.com/dnb-hugo/libraries/tree/master/bootstrap5",
