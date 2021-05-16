@@ -1,6 +1,6 @@
 module github.com/dnb-hugo/libraries/bootstrap5
 
-go 1.15
+go 1.16
 
 require (
 	github.com/dnb-hugo/libraries/popper.js v1.1.12 // indirect
