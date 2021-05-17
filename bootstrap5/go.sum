@@ -1,5 +1,5 @@
-github.com/dnb-hugo/libraries/popper.js v1.1.12 h1:z8STPT5gVKG7xnt/I/+pgWRfKpfQoisbD1bDPUHHYJE=
-github.com/dnb-hugo/libraries/popper.js v1.1.12/go.mod h1:BfBnx3yJ6GRRwTPmH4OHjEanYtFzSQJl6XhZydcItiY=
+github.com/dnb-hugo/libraries/popper.js v1.2.0 h1:vMq5jwR7KvSgZrLuAzWWUM5KB1lVFQYuWOKzH7l/pFY=
+github.com/dnb-hugo/libraries/popper.js v1.2.0/go.mod h1:zkFxlsMAbh2U2dUtRm4wU8841Sp8nlkqrgNQPKBntTY=
 github.com/popperjs/popper-core v2.9.2+incompatible h1:79aegxWU0Efzru0yRC1PViXx/lutzrKZdzGcvge/7SI=
 github.com/popperjs/popper-core v2.9.2+incompatible/go.mod h1:rrRYxxxrr6Y+9S8V9ttEFhsPN5sFPapL1QOzxjoDz0o=
 github.com/twbs/bootstrap v5.0.1+incompatible h1:XW1ZMrcg2ZTTQFKtE/i5HUagYsAao/hqfN30dJeBpVk=

@@ -3,6 +3,6 @@ module github.com/dnb-hugo/libraries/bootstrap5
 go 1.16
 
 require (
-	github.com/dnb-hugo/libraries/popper.js v1.1.12 // indirect
+	github.com/dnb-hugo/libraries/popper.js v1.2.0 // indirect
 	github.com/twbs/bootstrap v5.0.1+incompatible // indirect
 )
