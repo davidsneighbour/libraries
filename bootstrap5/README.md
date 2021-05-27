@@ -22,7 +22,7 @@ Step 2: add the module to your required modules in `config.toml` or `config/modu
 ```toml
 [module]
 [[module.imports]]
-path = "github.com/dnb-hugo/libraries/bootstrap5"
+path = "github.com/dnb-hugo/libraries/bootstrap5/v2"
 ```
 
 The next time you run hugo it will download the latest version of the module.
