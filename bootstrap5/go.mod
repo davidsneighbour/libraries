@@ -1,4 +1,4 @@
-module github.com/dnb-hugo/libraries/bootstrap5
+module github.com/dnb-hugo/libraries/bootstrap5/v2
 
 go 1.16
 
