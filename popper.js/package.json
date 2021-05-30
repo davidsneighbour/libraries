@@ -14,7 +14,7 @@
   "devDependencies": {
     "@dnb-hugo/remark-config": "2.0.13",
     "@dnb-hugo/standard-version-config": "2.0.12",
-    "@dnb-hugo/textlint-config": "2.0.12"
+    "@dnb-hugo/textlint-config": "2.0.16"
   },
   "homepage": "https://github.com/dnb-hugo/libraries/tree/master/popper.js",
   "license": "MIT",
