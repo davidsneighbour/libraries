@@ -5,6 +5,12 @@ extended = true
 min = "0.78.0"
 
 # see https://github.com/iamkun/dayjs for details
-[[module.mounts]]
-source = "dayjs"
-target = "assets/libs/dayjs"
+[[module.imports]]
+path = "github.com/iamkun/dayjs"
+disable = false
+ignoreConfig = true
+ignoreImports = true
+
+[[module.imports.mounts]]
+source = "src"
+target = "assets/js/dayjs"
