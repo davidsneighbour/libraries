@@ -1,37 +1,36 @@
-[module]
-
-[module.hugoVersion]
+[hugoVersion]
 extended = true
 min = "0.70.0"
 
-[[module.mounts]]
+[[mounts]]
 source = "assets"
 target = "assets"
 
-[[module.mounts]]
+[[mounts]]
+source = "assets/libs/popperjs"
+target = "assets/libs/popperjs"
+
+################################################################################
+# Bootstrap mounts
+################################################################################
+[[mounts]]
 source = "assets/scss/bootstrap/_vendor"
 target = "assets/scss/bootstrap/vendor"
 
-[[module.imports]]
-path = "github.com/dnb-hugo/libraries/popper.js"
-
-[[module.imports]]
+[[imports]]
 path = "github.com/twbs/bootstrap"
 disable = false
 ignoreConfig = true
 ignoreImports = true
 
-[[module.imports.mounts]]
+[[imports.mounts]]
 source = "scss"
 target = "assets/scss/bootstrap"
 
-[[module.imports.mounts]]
+[[imports.mounts]]
 source = "js"
 target = "assets/bootstrap"
 
-[[module.imports.mounts]]
+[[imports.mounts]]
 source = "js/index.esm.js"
 target = "assets/bootstrap/index.js"
-
-[params]
-_merge = "none"
