@@ -2,11 +2,14 @@
 
 [module.hugoVersion]
 extended = true
-min = "0.70.0"
+min = "0.56.0"
+max = "0.83.1"
 
 [[module.imports]]
 path = "github.com/popperjs/popper-core"
 disable = false
+ignoreConfig = false
+ignoreImports = false
 
 [[module.imports.mounts]]
 source = "src"
