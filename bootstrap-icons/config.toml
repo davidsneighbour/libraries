@@ -14,6 +14,9 @@ target = "layouts"
 
 [[module.imports]]
 path = "github.com/twbs/icons"
+disable = false
+ignoreConfig = true
+ignoreImports = true
 
 [[module.imports.mounts]]
 source = "icons"
