@@ -13,7 +13,13 @@ source = "assets/scss/bootstrap/_vendor"
 target = "assets/scss/bootstrap/vendor"
 
 [[module.imports]]
+path = "github.com/dnb-hugo/libraries/popper.js"
+
+[[module.imports]]
 path = "github.com/twbs/bootstrap"
+disable = false
+ignoreConfig = true
+ignoreImports = true
 
 [[module.imports.mounts]]
 source = "scss"
@@ -27,5 +33,5 @@ target = "assets/bootstrap"
 source = "js/index.esm.js"
 target = "assets/bootstrap/index.js"
 
-[[module.imports]]
-path = "github.com/dnb-hugo/libraries/popper.js"
+[params]
+_merge = "none"
