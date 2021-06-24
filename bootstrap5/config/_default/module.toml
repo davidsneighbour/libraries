@@ -24,6 +24,10 @@ ignoreConfig = true
 ignoreImports = true
 
 [[imports.mounts]]
+source = "dist"
+target = "assets/libs/bootstrap"
+
+[[imports.mounts]]
 source = "scss"
 target = "assets/scss/bootstrap"
 
