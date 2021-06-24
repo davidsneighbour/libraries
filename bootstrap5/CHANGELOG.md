@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.1.7](https://github.com/dnb-hugo/libraries/compare/bootstrap5/v2.1.6...bootstrap5/v2.1.7) (2021-06-24)
+
+
+### Features
+
+* add dist folder to mounts for pre-compiled javascripts ([935d134](https://github.com/dnb-hugo/libraries/commit/935d13456f9a4235b6473873cb357e9339349be0))
+
 ### [2.1.6](https://github.com/dnb-hugo/libraries/compare/bootstrap5/v2.1.5...bootstrap5/v2.1.6) (2021-06-23)
 
 
