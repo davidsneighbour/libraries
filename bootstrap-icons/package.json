@@ -7,7 +7,7 @@
     "url": "https://github.com/dnb-hugo/libraries/issues"
   },
   "devDependencies": {
-    "@dnb-hugo/standard-version-config": "3.0.13",
+    "@dnb-hugo/standard-version-config": "3.0.17",
     "standard-version": "9.3.0"
   },
   "homepage": "https://github.com/dnb-hugo/libraries/tree/master/bootstrap-icons",
