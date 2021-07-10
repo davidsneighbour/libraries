@@ -12,13 +12,13 @@
     ]
   },
   "devDependencies": {
-    "@dnb-hugo/browserslist-config": "3.0.13",
-    "@dnb-hugo/commitlint-config": "3.0.13",
-    "@dnb-hugo/eslint-config": "3.0.13",
-    "@dnb-hugo/remark-config": "3.0.13",
-    "@dnb-hugo/standard-version-config": "3.0.13",
-    "@dnb-hugo/stylelint-config": "3.0.13",
-    "@dnb-hugo/textlint-config": "3.0.13"
+    "@dnb-hugo/browserslist-config": "3.0.24",
+    "@dnb-hugo/commitlint-config": "3.0.24",
+    "@dnb-hugo/eslint-config": "3.0.24",
+    "@dnb-hugo/remark-config": "3.0.24",
+    "@dnb-hugo/standard-version-config": "3.0.24",
+    "@dnb-hugo/stylelint-config": "3.0.24",
+    "@dnb-hugo/textlint-config": "3.0.24"
   },
   "homepage": "https://github.com/dnb-hugo/libraries/tree/master/bootstrap5",
   "license": "MIT",
