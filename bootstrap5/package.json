@@ -12,13 +12,13 @@
     ]
   },
   "devDependencies": {
-    "@dnb-org/browserslist-config": "3.0.24",
-    "@dnb-org/commitlint-config": "3.0.24",
-    "@dnb-org/eslint-config": "3.0.24",
-    "@dnb-org/remark-config": "3.0.24",
-    "@dnb-org/standard-version-config": "3.0.24",
-    "@dnb-org/stylelint-config": "3.0.24",
-    "@dnb-org/textlint-config": "3.0.24"
+    "@dnb-org/browserslist-config": "3.1.0",
+    "@dnb-org/commitlint-config": "3.1.0",
+    "@dnb-org/eslint-config": "3.1.0",
+    "@dnb-org/remark-config": "3.1.0",
+    "@dnb-org/standard-version-config": "3.1.0",
+    "@dnb-org/stylelint-config": "3.1.0",
+    "@dnb-org/textlint-config": "3.1.0"
   },
   "homepage": "https://github.com/dnb-org/libraries/tree/master/bootstrap5",
   "license": "MIT",
