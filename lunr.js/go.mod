@@ -1,3 +1,3 @@
-module github.com/dnb-hugo/libraries/lunr.js
+module github.com/dnb-org/libraries/lunr.js
 
 go 1.16

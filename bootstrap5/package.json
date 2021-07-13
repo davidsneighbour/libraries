@@ -1,26 +1,26 @@
 {
-  "name": "@dnb-hugo-libraries/bootstrap5",
+  "name": "@dnb-org-libraries/bootstrap5",
   "description": "Bootstrap 5 for Hugo",
   "version": "2.1.8",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
   "bugs": {
-    "url": "https://github.com/dnb-hugo/libraries/issues"
+    "url": "https://github.com/dnb-org/libraries/issues"
   },
   "commitlint": {
     "extends": [
-      "@dnb-hugo/commitlint-config"
+      "@dnb-org/commitlint-config"
     ]
   },
   "devDependencies": {
-    "@dnb-hugo/browserslist-config": "3.0.24",
-    "@dnb-hugo/commitlint-config": "3.0.24",
-    "@dnb-hugo/eslint-config": "3.0.24",
-    "@dnb-hugo/remark-config": "3.0.24",
-    "@dnb-hugo/standard-version-config": "3.0.24",
-    "@dnb-hugo/stylelint-config": "3.0.24",
-    "@dnb-hugo/textlint-config": "3.0.24"
+    "@dnb-org/browserslist-config": "3.0.24",
+    "@dnb-org/commitlint-config": "3.0.24",
+    "@dnb-org/eslint-config": "3.0.24",
+    "@dnb-org/remark-config": "3.0.24",
+    "@dnb-org/standard-version-config": "3.0.24",
+    "@dnb-org/stylelint-config": "3.0.24",
+    "@dnb-org/textlint-config": "3.0.24"
   },
-  "homepage": "https://github.com/dnb-hugo/libraries/tree/master/bootstrap5",
+  "homepage": "https://github.com/dnb-org/libraries/tree/master/bootstrap5",
   "license": "MIT",
   "private": true,
   "scripts": {

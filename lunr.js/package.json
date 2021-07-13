@@ -1,9 +1,9 @@
 {
-  "name": "@dnb-hugo-libraries/lunr.js",
+  "name": "@dnb-org-libraries/lunr.js",
   "version": "1.1.1",
   "description": "Lunr.js for Hugo",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
-  "homepage": "https://github.com/dnb-hugo/libraries/tree/master/lunr.js",
+  "homepage": "https://github.com/dnb-org/libraries/tree/master/lunr.js",
   "license": "MIT",
   "scripts": {
     "release": "standard-version --release-as patch -a -t \"lunrjs/v\" --releaseCommitMessageFormat \"chore(release): lunrjs/v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
@@ -11,7 +11,7 @@
     "release:major": "standard-version --release-as major -a -t \"lunrjs/v\" --releaseCommitMessageFormat \"chore(release): lunrjs/v{{currentTag}}\" && ./bin/release-hook-postrelease.sh"
   },
   "bugs": {
-    "url": "https://github.com/dnb-hugo/libraries/issues"
+    "url": "https://github.com/dnb-org/libraries/issues"
   },
   "devDependencies": {
     "standard-version": "9.3.0",

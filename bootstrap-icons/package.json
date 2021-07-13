@@ -1,16 +1,16 @@
 {
-  "name": "@dnb-hugo-libraries/bootstrap-icons",
+  "name": "@dnb-org-libraries/bootstrap-icons",
   "description": "Bootstrap Icons for Hugo",
   "version": "1.5.2",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
   "bugs": {
-    "url": "https://github.com/dnb-hugo/libraries/issues"
+    "url": "https://github.com/dnb-org/libraries/issues"
   },
   "devDependencies": {
-    "@dnb-hugo/standard-version-config": "3.0.24",
+    "@dnb-org/standard-version-config": "3.0.24",
     "standard-version": "9.3.0"
   },
-  "homepage": "https://github.com/dnb-hugo/libraries/tree/master/bootstrap-icons",
+  "homepage": "https://github.com/dnb-org/libraries/tree/master/bootstrap-icons",
   "license": "MIT",
   "private": true,
   "scripts": {
