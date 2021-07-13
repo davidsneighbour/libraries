@@ -2,6 +2,16 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [2.2.0](https://github.com/dnb-hugo/libraries/compare/bootstrap5/v2.1.8...bootstrap5/v2.2.0) (2021-07-13)
+
+
+### Chore
+
+* change dnb-hugo to dnb-org organisation ([ffafb65](https://github.com/dnb-hugo/libraries/commit/ffafb658a54b968a725fdc39e2ddb6997ea292e1))
+* **deps:** update dependencies ([a63ae2e](https://github.com/dnb-hugo/libraries/commit/a63ae2ec3faaf1b5d96bdd586384bc018bf1e324))
+* **deps:** update dependencies ([4f5830e](https://github.com/dnb-hugo/libraries/commit/4f5830e5a2ada8e4b88d37d8f4aab31077876549))
+* **release:** bootstrap-icons/v1.5.2 ([1df713d](https://github.com/dnb-hugo/libraries/commit/1df713d8c7449cd966ccf6453f08c0c89596713e))
+
 ### [2.1.7](https://github.com/dnb-org/libraries/compare/bootstrap5/v2.1.6...bootstrap5/v2.1.7) (2021-06-24)
 
 
