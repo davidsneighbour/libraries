@@ -2,6 +2,18 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.2.1](https://github.com/dnb-hugo/libraries/compare/bootstrap5/v2.2.0...bootstrap5/v2.2.1) (2021-07-14)
+
+
+### Chore
+
+* fix license date ([8fd4ba1](https://github.com/dnb-hugo/libraries/commit/8fd4ba1cf74b9697311f8f1c52af4cd44f4125e6))
+* fix license file location ([eca7bbb](https://github.com/dnb-hugo/libraries/commit/eca7bbb3a1c2f862a1a1633244c472967d30e5bf))
+* **release:** bootstrap-icons/v1.5.3 ([5f97673](https://github.com/dnb-hugo/libraries/commit/5f9767304c0b86e5ead4b63370bdab9758246176))
+* **release:** dayjs/v1.0.2 ([1184c5f](https://github.com/dnb-hugo/libraries/commit/1184c5f3fc537120bcdd0e46864e87879f55b443))
+* **release:** dayjs/v1.0.3 ([d4c2203](https://github.com/dnb-hugo/libraries/commit/d4c220308c663928fc3b458fa3c7046f086ae212))
+* **release:** lazysizes/v1.1.2 ([7bca13a](https://github.com/dnb-hugo/libraries/commit/7bca13a93d1c11d65cae7ece88be1f464db6d875))
+
 ## [2.2.0](https://github.com/dnb-hugo/libraries/compare/bootstrap5/v2.1.8...bootstrap5/v2.2.0) (2021-07-13)
 
 
