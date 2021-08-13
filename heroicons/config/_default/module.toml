@@ -1,0 +1,25 @@
+[hugoVersion]
+extended = true
+min = "0.70.0"
+
+[[mounts]]
+source = "content"
+target = "content"
+
+[[mounts]]
+source = "layouts"
+target = "layouts"
+
+[[imports]]
+path = "github.com/tailwindlabs/heroicons"
+disable = false
+ignoreConfig = true
+ignoreImports = true
+
+[[imports.mounts]]
+source = "optimized/outline"
+target = "assets/icons/heroicons/outline"
+
+[[imports.mounts]]
+source = "optimized/solid"
+target = "assets/icons/heroicons/solid"
