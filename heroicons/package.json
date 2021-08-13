@@ -1,14 +1,13 @@
 {
   "name": "@dnb-org-libraries/heroicons",
   "description": "Heroicons for Hugo",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
   "bugs": {
     "url": "https://github.com/dnb-org/libraries/issues"
   },
   "devDependencies": {
-    "@dnb-org/standard-version-config": "3.1.0",
-    "standard-version": "9.3.0"
+    "@dnb-org/standard-version-config": "3.1.0"
   },
   "homepage": "https://github.com/dnb-org/libraries/tree/master/heroicons",
   "license": "MIT",
