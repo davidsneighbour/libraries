@@ -13,8 +13,8 @@
   "license": "MIT",
   "private": true,
   "scripts": {
-    "release": "standard-version --release-as patch -a -t \"heroicons/v\" --releaseCommitMessageFormat \"chore(release): bootstrap-icons/v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
-    "release:major": "standard-version --release-as major -a -t \"heroicons/v\" --releaseCommitMessageFormat \"chore(release): bootstrap-icons/v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
-    "release:next": "standard-version --release-as minor -a -t \"heroicons/v\" --releaseCommitMessageFormat \"chore(release): bootstrap-icons/v{{currentTag}}\" && ./bin/release-hook-postrelease.sh"
+    "release": "standard-version --release-as patch -a -t \"heroicons/v\" --releaseCommitMessageFormat \"chore(release): heroicons/v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
+    "release:major": "standard-version --release-as major -a -t \"heroicons/v\" --releaseCommitMessageFormat \"chore(release): heroicons/v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
+    "release:next": "standard-version --release-as minor -a -t \"heroicons/v\" --releaseCommitMessageFormat \"chore(release): heroicons/v{{currentTag}}\" && ./bin/release-hook-postrelease.sh"
   }
 }
