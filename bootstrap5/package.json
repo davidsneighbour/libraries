@@ -12,10 +12,10 @@
     ]
   },
   "devDependencies": {
-    "@dnb-org/browserslist-config": "3.3.1",
-    "@dnb-org/commitlint-config": "3.3.0",
-    "@dnb-org/eslint-config": "3.3.0",
-    "@dnb-org/remark-config": "3.3.0",
+    "@dnb-org/browserslist-config": "3.3.4",
+    "@dnb-org/commitlint-config": "3.3.3",
+    "@dnb-org/eslint-config": "3.3.4",
+    "@dnb-org/remark-config": "3.3.3",
     "@dnb-org/standard-version-config": "3.3.0",
     "@dnb-org/stylelint-config": "3.3.0",
     "@dnb-org/textlint-config": "3.3.0"
@@ -29,6 +29,6 @@
     "release:next": "standard-version --release-as minor -a -t \"bootstrap5/v\" --releaseCommitMessageFormat \"chore(release): bootstrap5/v{{currentTag}}\" && ./bin/release-hook-postrelease.sh"
   },
   "dependencies": {
-    "@popperjs/core": "^2.10.1"
+    "@popperjs/core": "^2.10.2"
   }
 }
