@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.2.3](https://github.com/dnb-hugo/libraries/compare/bootstrap5/v2.2.2...bootstrap5/v2.2.3) (2021-10-29)
+
+
+### Chore
+
+* **deps:** update dependencies ([c9c279e](https://github.com/dnb-hugo/libraries/commit/c9c279e434434deb57aa777575793996c82713eb))
+* **deps:** update dependencies ([fe89c3d](https://github.com/dnb-hugo/libraries/commit/fe89c3da814b48adee1654e201245cf3d587dd97))
+* **deps:** update dependencies ([eef48bf](https://github.com/dnb-hugo/libraries/commit/eef48bfbab9d158fef481cdd428269bbdf6d3f18))
+* **deps:** update dependencies ([1b70fee](https://github.com/dnb-hugo/libraries/commit/1b70fee0bc6669ca41679e395c13b1992ddb06fc))
+* **deps:** update dependencies ([8fc86b1](https://github.com/dnb-hugo/libraries/commit/8fc86b1546fcb6ab20e17c58630060b597b6289f))
+* **deps:** update dependencies ([f36afd3](https://github.com/dnb-hugo/libraries/commit/f36afd35b5040cb4ffff0a50722049a740690462))
+* **release:** bootstrap-icons/v1.5.4 ([29d306c](https://github.com/dnb-hugo/libraries/commit/29d306cb242eef9b380a6c8e4817c4f9cf393a60))
+* **release:** dayjs/v1.0.5 ([be20f41](https://github.com/dnb-hugo/libraries/commit/be20f414da8b3fc97048d74ef09af2d8e9d2f20e))
+* **release:** heroicons/v1.0.3 ([564d0c8](https://github.com/dnb-hugo/libraries/commit/564d0c80e120c8f3180e482918e7b8233bc754c9))
+* **release:** lazysizes/v1.1.4 ([f3f366e](https://github.com/dnb-hugo/libraries/commit/f3f366e034232cef1a9b710f42a8bf20c5bfca74))
+* **release:** lunrjs/v1.1.2 ([c7bd90a](https://github.com/dnb-hugo/libraries/commit/c7bd90aad357803191083987f16f59082e393768))
+
 ### [2.2.2](https://github.com/dnb-hugo/libraries/compare/bootstrap5/v2.2.1...bootstrap5/v2.2.2) (2021-10-15)
 
 
