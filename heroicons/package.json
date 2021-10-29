@@ -7,7 +7,7 @@
     "url": "https://github.com/dnb-org/libraries/issues"
   },
   "devDependencies": {
-    "@dnb-org/standard-version-config": "3.3.0"
+    "@dnb-org/standard-version-config": "3.3.7"
   },
   "homepage": "https://github.com/dnb-org/libraries/tree/master/heroicons",
   "license": "MIT",
