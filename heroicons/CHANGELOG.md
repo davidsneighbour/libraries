@@ -2,6 +2,43 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [1.0.3](https://github.com/dnb-hugo/libraries/compare/heroicons/v1.0.2...heroicons/v1.0.3) (2021-10-29)
+
+
+### Chore
+
+* **deps-dev:** bump @commitlint/cli from 13.1.0 to 13.2.1 in /dayjs ([#192](https://github.com/dnb-hugo/libraries/issues/192)) ([b77e037](https://github.com/dnb-hugo/libraries/commit/b77e0377fd1b0451f20592c583362d688fdc50d5))
+* **deps-dev:** bump @commitlint/cli from 13.1.0 to 13.2.1 in /lunr.js ([#190](https://github.com/dnb-hugo/libraries/issues/190)) ([ab3d0cf](https://github.com/dnb-hugo/libraries/commit/ab3d0cfb8eb348a8c28b052e5690a044f8c276c3))
+* **deps-dev:** bump @commitlint/cli in /lazysizes ([#191](https://github.com/dnb-hugo/libraries/issues/191)) ([9ca56b4](https://github.com/dnb-hugo/libraries/commit/9ca56b4a4a2d09d6599245948629bccd8c12f794))
+* **deps-dev:** bump @commitlint/config-conventional in /dayjs ([#184](https://github.com/dnb-hugo/libraries/issues/184)) ([c922d07](https://github.com/dnb-hugo/libraries/commit/c922d07b992a31e105cf38cc1eb7b43bbe1f97a2))
+* **deps-dev:** bump @commitlint/config-conventional in /lazysizes ([#185](https://github.com/dnb-hugo/libraries/issues/185)) ([d5ea2bc](https://github.com/dnb-hugo/libraries/commit/d5ea2bc6eaf7a2a958ec66fbfcd9238da455d5f7))
+* **deps-dev:** bump @commitlint/config-conventional in /lunr.js ([#178](https://github.com/dnb-hugo/libraries/issues/178)) ([66674e7](https://github.com/dnb-hugo/libraries/commit/66674e78bef8df9e83e80736846d3f5b4f055979))
+* **deps-dev:** bump @dnb-org/browserslist-config in /bootstrap5 ([#161](https://github.com/dnb-hugo/libraries/issues/161)) ([48f97f1](https://github.com/dnb-hugo/libraries/commit/48f97f1de06efe408013caade25255ee83775b9b))
+* **deps-dev:** bump @dnb-org/browserslist-config in /bootstrap5 ([#165](https://github.com/dnb-hugo/libraries/issues/165)) ([bae8398](https://github.com/dnb-hugo/libraries/commit/bae8398883adb7d65a84199da16473d5dd6a157e))
+* **deps-dev:** bump @dnb-org/browserslist-config in /bootstrap5 ([#189](https://github.com/dnb-hugo/libraries/issues/189)) ([88347c4](https://github.com/dnb-hugo/libraries/commit/88347c49c741c4eb249b572784a8187e1f3eb765))
+* **deps-dev:** bump @dnb-org/commitlint-config in /bootstrap5 ([#176](https://github.com/dnb-hugo/libraries/issues/176)) ([f3436f3](https://github.com/dnb-hugo/libraries/commit/f3436f3130a8349bcefcf62a9a534e4a8ebef75c))
+* **deps-dev:** bump @dnb-org/eslint-config in /bootstrap5 ([#162](https://github.com/dnb-hugo/libraries/issues/162)) ([50055e7](https://github.com/dnb-hugo/libraries/commit/50055e769dbce0dad350d4e5547c402c7da9162f))
+* **deps-dev:** bump @dnb-org/eslint-config in /bootstrap5 ([#164](https://github.com/dnb-hugo/libraries/issues/164)) ([72a86a6](https://github.com/dnb-hugo/libraries/commit/72a86a6b1657d41ffd94f714910ff63f396a61f1))
+* **deps-dev:** bump @dnb-org/eslint-config in /bootstrap5 ([#177](https://github.com/dnb-hugo/libraries/issues/177)) ([b4f5f4b](https://github.com/dnb-hugo/libraries/commit/b4f5f4bddb1c81fcdae1994d2183369d10830701))
+* **deps-dev:** bump @dnb-org/remark-config in /bootstrap5 ([#163](https://github.com/dnb-hugo/libraries/issues/163)) ([1521a37](https://github.com/dnb-hugo/libraries/commit/1521a378b3189d09994e5267d7e476fe2ab90697))
+* **deps-dev:** bump @dnb-org/remark-config in /bootstrap5 ([#174](https://github.com/dnb-hugo/libraries/issues/174)) ([e67608d](https://github.com/dnb-hugo/libraries/commit/e67608d092fa0d2d5a0d8822ebfdf9089434a2fe))
+* **deps-dev:** bump @dnb-org/remark-config in /bootstrap5 ([#187](https://github.com/dnb-hugo/libraries/issues/187)) ([50551c3](https://github.com/dnb-hugo/libraries/commit/50551c3d5892f134c8e2de694416f21f56e34fcd))
+* **deps-dev:** bump @dnb-org/standard-version-config ([#175](https://github.com/dnb-hugo/libraries/issues/175)) ([62f1384](https://github.com/dnb-hugo/libraries/commit/62f1384a336d8dcd2c95f0d8cd2cdf9084912a0a))
+* **deps-dev:** bump @dnb-org/standard-version-config in /bootstrap5 ([#183](https://github.com/dnb-hugo/libraries/issues/183)) ([83c79fd](https://github.com/dnb-hugo/libraries/commit/83c79fdce0a67d3d722d55fae485f584608fbd59))
+* **deps-dev:** bump @dnb-org/stylelint-config in /bootstrap5 ([#188](https://github.com/dnb-hugo/libraries/issues/188)) ([2fe743b](https://github.com/dnb-hugo/libraries/commit/2fe743bf2d8aef68f8a854dd4f6cb203df443f7d))
+* **deps-dev:** bump @dnb-org/textlint-config in /bootstrap5 ([#180](https://github.com/dnb-hugo/libraries/issues/180)) ([6926146](https://github.com/dnb-hugo/libraries/commit/6926146a22b5ca94331918c1ad52a2c16a9e385f))
+* **deps:** update dependencies ([1b70fee](https://github.com/dnb-hugo/libraries/commit/1b70fee0bc6669ca41679e395c13b1992ddb06fc))
+* **deps:** update dependencies ([8fc86b1](https://github.com/dnb-hugo/libraries/commit/8fc86b1546fcb6ab20e17c58630060b597b6289f))
+* **deps:** update dependencies ([f36afd3](https://github.com/dnb-hugo/libraries/commit/f36afd35b5040cb4ffff0a50722049a740690462))
+* **deps:** update dependencies ([20adc64](https://github.com/dnb-hugo/libraries/commit/20adc64e2eb20e1708a0c4aff4c4cbb363aba369))
+* **deps:** update dependencies ([3384e80](https://github.com/dnb-hugo/libraries/commit/3384e80e3bc2719da2e307b98dde1681584144c4))
+* **release:** bootstrap5/v2.2.2 ([1821ebb](https://github.com/dnb-hugo/libraries/commit/1821ebbad9aa968694a252dd5a16a94573363abc))
+* **release:** lazysizes/v1.1.4 ([f3f366e](https://github.com/dnb-hugo/libraries/commit/f3f366e034232cef1a9b710f42a8bf20c5bfca74))
+* **release:** lunrjs/v1.1.2 ([c7bd90a](https://github.com/dnb-hugo/libraries/commit/c7bd90aad357803191083987f16f59082e393768))
+* remove .idea directory ([fb3e70d](https://github.com/dnb-hugo/libraries/commit/fb3e70d4ca4229cc1cd9bac032816bc2e0139489))
+* update file rights ([1845b42](https://github.com/dnb-hugo/libraries/commit/1845b42010d790915b6b64a81d86ff170caedf31))
+* update IntelliJ configuration ([6b654ad](https://github.com/dnb-hugo/libraries/commit/6b654ade064119bea0f784c89742b50c982a3b40))
+
 ### [1.0.2](https://github.com/dnb-hugo/libraries/compare/heroicons/v1.0.1...heroicons/v1.0.2) (2021-08-13)
 
 ### [1.0.1](https://github.com/dnb-hugo/libraries/compare/heroicons/v1.0.0...heroicons/v1.0.1) (2021-08-13)
