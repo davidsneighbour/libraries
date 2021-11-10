@@ -1,0 +1,7 @@
+[hugoVersion]
+extended = true
+min = "0.70.0"
+
+[[mounts]]
+source = "assets"
+target = "assets"
