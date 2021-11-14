@@ -11,19 +11,20 @@
       "@dnb-org/commitlint-config"
     ]
   },
+  "dependencies": {
+    "tailwindcss": "2.2.19"
+  },
   "devDependencies": {
     "@dnb-org/commitlint-config": "3.3.3",
     "@dnb-org/standard-version-config": "3.3.0",
     "autoprefixer": "10.3.7",
     "copyfiles": "^2.4.1",
     "postcss": "8.3.11",
-    "rimraf": "^3.0.2",
-    "tailwindcss": "2.2.19"
+    "rimraf": "^3.0.2"
   },
   "homepage": "https://github.com/dnb-org/libraries/tree/master/tailwindcss",
   "license": "MIT",
   "scripts": {
-    "build": "rimraf ./assets/tailwindcss/* && copyfiles -V -u 2 -a node_modules/tailwindcss/* ./assets/tailwindcss",
     "release": "standard-version --release-as patch -a -t \"tailwindcss/v\" --releaseCommitMessageFormat \"chore(release): tailwindcss/v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
     "release:major": "standard-version --release-as major -a -t \"tailwindcss/v\" --releaseCommitMessageFormat \"chore(release): tailwindcss/v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
     "release:next": "standard-version --release-as minor -a -t \"tailwindcss/v\" --releaseCommitMessageFormat \"chore(release): tailwindcss/v{{currentTag}}\" && ./bin/release-hook-postrelease.sh"
