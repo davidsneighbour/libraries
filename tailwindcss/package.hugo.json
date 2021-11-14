@@ -18,9 +18,7 @@
     "@dnb-org/commitlint-config": "3.3.3",
     "@dnb-org/standard-version-config": "3.3.0",
     "autoprefixer": "10.3.7",
-    "copyfiles": "^2.4.1",
-    "postcss": "8.3.11",
-    "rimraf": "^3.0.2"
+    "postcss": "8.3.11"
   },
   "homepage": "https://github.com/dnb-org/libraries/tree/master/tailwindcss",
   "license": "MIT",
