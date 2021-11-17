@@ -12,7 +12,9 @@
       "profile": "https://kollitsch.de",
       "contributions": [
         "test",
-        "code"
+        "code",
+        "doc",
+        "review"
       ]
     }
   ],
