@@ -1,6 +1,5 @@
 ## DNB Hugo Libs
-
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)<!-- ALL-CONTRIBUTORS-BADGE:END -->[![Codacy Badge](https://app.codacy.com/project/badge/Grade/cf99ef2a9da1464dae5628b1e8230921)](https://www.codacy.com/gh/dnb-org/libraries/dashboard)
+[![Codacy Badge](https://app.codacy.com/project/badge/Grade/cf99ef2a9da1464dae5628b1e8230921)](https://www.codacy.com/gh/dnb-org/libraries/dashboard)
 
 A collection of "bridges" to the tools that are being used in DNB Hugo elements.
 
