@@ -1,0 +1,38 @@
+{
+  "name": "@dnb-org-libraries/tailwindcss",
+  "description": "Tailwind CSS as a Hugo module",
+  "version": "0.0.1",
+  "author": "Ringo De Smet <ringo@de-smet.name>",
+  "bugs": {
+    "url": "https://github.com/dnb-org/libraries/issues"
+  },
+  "commitlint": {
+    "extends": [
+      "@dnb-org/commitlint-config"
+    ]
+  },
+  "dependencies": {
+    "tailwindcss": "2.2.19"
+  },
+  "devDependencies": {
+    "@dnb-org/commitlint-config": "3.3.3",
+    "@dnb-org/standard-version-config": "3.3.0",
+    "autoprefixer": "10.3.7",
+    "postcss": "8.3.11"
+  },
+  "homepage": "https://github.com/dnb-org/libraries/tree/master/tailwindcss",
+  "license": "MIT",
+  "scripts": {
+    "release": "standard-version --release-as patch -a -t \"tailwindcss/v\" --releaseCommitMessageFormat \"chore(release): tailwindcss/v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
+    "release:major": "standard-version --release-as major -a -t \"tailwindcss/v\" --releaseCommitMessageFormat \"chore(release): tailwindcss/v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
+    "release:next": "standard-version --release-as minor -a -t \"tailwindcss/v\" --releaseCommitMessageFormat \"chore(release): tailwindcss/v{{currentTag}}\" && ./bin/release-hook-postrelease.sh"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dnb-org/libraries.git"
+  },
+  "keywords": [
+    "hugo",
+    "tailwindcss"
+  ]
+}
