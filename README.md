@@ -1,18 +1,15 @@
 ## DNB Hugo Libs
-<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->
-[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)
-<!-- ALL-CONTRIBUTORS-BADGE:END -->
 
-[![Codacy Badge](https://app.codacy.com/project/badge/Grade/cf99ef2a9da1464dae5628b1e8230921)](https://www.codacy.com/gh/dnb-org/libraries/dashboard)
+<!-- ALL-CONTRIBUTORS-BADGE:START - Do not remove or modify this section -->[![All Contributors](https://img.shields.io/badge/all_contributors-1-orange.svg?style=flat-square)](#contributors-)<!-- ALL-CONTRIBUTORS-BADGE:END -->[![Codacy Badge](https://app.codacy.com/project/badge/Grade/cf99ef2a9da1464dae5628b1e8230921)](https://www.codacy.com/gh/dnb-org/libraries/dashboard)
 
 A collection of "bridges" to the tools that are being used in DNB Hugo elements.
 
--   [Bootstrap Icons](https://github.com/dnb-org/libraries/tree/main/bootstrap-icons)
--   [Bootstrap 5](https://github.com/dnb-org/libraries/tree/main/bootstrap5)
--   [dayjs](https://github.com/dnb-org/libraries/tree/main/dayjs)
--   [Lazysizes](https://github.com/dnb-org/libraries/tree/main/lazysizes)
--   [lunr.js](https://github.com/dnb-org/libraries/tree/main/lunr.js)
--   [Popper.js](https://github.com/dnb-org/libraries/tree/main/popper.js)
+- [Bootstrap Icons](https://github.com/dnb-org/libraries/tree/main/bootstrap-icons)
+- [Bootstrap 5](https://github.com/dnb-org/libraries/tree/main/bootstrap5)
+- [dayjs](https://github.com/dnb-org/libraries/tree/main/dayjs)
+- [Lazysizes](https://github.com/dnb-org/libraries/tree/main/lazysizes)
+- [lunr.js](https://github.com/dnb-org/libraries/tree/main/lunr.js)
+- [Popper.js](https://github.com/dnb-org/libraries/tree/main/popper.js)
 
 ### Other elements in DNB Hugo
 
