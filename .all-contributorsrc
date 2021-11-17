@@ -1,0 +1,25 @@
+{
+  "files": [
+    "README.md"
+  ],
+  "imageSize": 100,
+  "commit": false,
+  "contributors": [
+    {
+      "login": "davidsneighbour",
+      "name": "Patrick Kollitsch",
+      "avatar_url": "https://avatars.githubusercontent.com/u/83281?v=4",
+      "profile": "https://kollitsch.de",
+      "contributions": [
+        "test",
+        "code"
+      ]
+    }
+  ],
+  "contributorsPerLine": 7,
+  "projectName": "libraries",
+  "projectOwner": "dnb-org",
+  "repoType": "github",
+  "repoHost": "https://github.com",
+  "skipCi": true
+}
