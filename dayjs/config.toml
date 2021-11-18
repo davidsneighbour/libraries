@@ -2,7 +2,7 @@
 
 [module.hugoVersion]
 extended = true
-min = "0.78.0"
+min = "0.84.0"
 
 # see https://github.com/iamkun/dayjs for details
 [[module.imports]]
