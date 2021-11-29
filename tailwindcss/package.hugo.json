@@ -15,10 +15,10 @@
     "tailwindcss": "2.2.19"
   },
   "devDependencies": {
-    "@dnb-org/commitlint-config": "3.3.3",
-    "@dnb-org/standard-version-config": "3.3.0",
-    "autoprefixer": "10.3.7",
-    "postcss": "8.3.11"
+    "@dnb-org/commitlint-config": "3.4.1",
+    "@dnb-org/standard-version-config": "3.4.0",
+    "autoprefixer": "10.4.0",
+    "postcss": "8.4.4"
   },
   "homepage": "https://github.com/dnb-org/libraries/tree/master/tailwindcss",
   "license": "MIT",
