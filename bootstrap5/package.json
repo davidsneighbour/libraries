@@ -13,7 +13,7 @@
   },
   "devDependencies": {
     "@dnb-org/browserslist-config": "3.4.0",
-    "@dnb-org/commitlint-config": "3.4.1",
+    "@dnb-org/commitlint-config": "3.4.8",
     "@dnb-org/eslint-config": "3.4.14",
     "@dnb-org/remark-config": "3.4.1",
     "@dnb-org/standard-version-config": "3.4.0",
