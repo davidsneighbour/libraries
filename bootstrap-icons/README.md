@@ -1,1 +1,1 @@
-This module is deprecated and replaced by [github.com/dnb-org/dnb-hugo-icons](https://github.com/dnb-org/dnb-hugo-icons).
+This module is deprecated and replaced by [github.com/davidsneighbour/hugo-icons](https://github.com/davidsneighbour/hugo-icons).
