@@ -12,13 +12,13 @@
     ]
   },
   "dependencies": {
-    "tailwindcss": "2.2.19"
+    "tailwindcss": "^2"
   },
   "devDependencies": {
-    "@davidsneighbour/commitlint-config": "3.4.1",
-    "@davidsneighbour/standard-version-config": "3.4.0",
-    "autoprefixer": "10.4.0",
-    "postcss": "8.4.4"
+    "@davidsneighbour/commitlint-config": "4.0.0",
+    "@davidsneighbour/standard-version-config": "4.0.0",
+    "autoprefixer": "10.4.4",
+    "postcss": "8.4.12"
   },
   "homepage": "https://github.com/davidsneighbour/libraries/tree/master/tailwindcss",
   "license": "MIT",
