@@ -1,4 +1,4 @@
-module github.com/dnb-org/libraries/lazysizes
+module github.com/davidsneighbour/libraries/lazysizes
 
 go 1.16
 

@@ -1,9 +1,9 @@
 {
-  "name": "@dnb-org-libraries/lazysizes",
+  "name": "@davidsneighbour/lazysizes",
   "version": "1.1.4",
   "description": "Lazysizes for Hugo",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
-  "homepage": "https://github.com/dnb-org/libraries/tree/master/lazysizes",
+  "homepage": "https://github.com/davidsneighbour/libraries/tree/master/lazysizes",
   "license": "MIT",
   "scripts": {
     "release": "standard-version --release-as patch -a -t \"lazysizes/v\" --releaseCommitMessageFormat \"chore(release): lazysizes/v{{currentTag}}\" && ./bin/release-hook-postrelease.sh",
@@ -11,7 +11,7 @@
     "release:major": "standard-version --release-as major -a -t \"lazysizes/v\" --releaseCommitMessageFormat \"chore(release): lazysizes/v{{currentTag}}\" && ./bin/release-hook-postrelease.sh"
   },
   "bugs": {
-    "url": "https://github.com/dnb-org/libraries/issues"
+    "url": "https://github.com/davidsneighbour/libraries/issues"
   },
   "devDependencies": {
     "standard-version": "9.3.2",
