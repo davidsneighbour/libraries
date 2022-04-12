@@ -1,4 +1,4 @@
-module github.com/dnb-org/libraries/dayjs
+module github.com/davidsneighbour/libraries/dayjs
 
 go 1.16
 

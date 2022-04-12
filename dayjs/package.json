@@ -1,9 +1,9 @@
 {
-  "name": "@dnb-org-libraries/dayjs",
+  "name": "@davidsneighbour/dayjs",
   "version": "1.0.5",
   "description": "dayjs for Hugo",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
-  "homepage": "https://github.com/dnb-org/libraries/tree/master/dayjs",
+  "homepage": "https://github.com/davidsneighbour/libraries/tree/master/dayjs",
   "license": "MIT",
   "scripts": {
     "release": "standard-version --release-as patch -a -t \"dayjs/v\" --releaseCommitMessageFormat \"chore(release): dayjs/v{{currentTag}}\" & ./bin/release-hook-postrelease.sh",
@@ -11,7 +11,7 @@
     "release:major": "standard-version --release-as major -a -t \"dayjs/v\" --releaseCommitMessageFormat \"chore(release): dayjs/v{{currentTag}}\" && ./bin/release-hook-postrelease.sh"
   },
   "bugs": {
-    "url": "https://github.com/dnb-org/libraries/issues"
+    "url": "https://github.com/davidsneighbour/libraries/issues"
   },
   "devDependencies": {
     "standard-version": "9.3.2",
