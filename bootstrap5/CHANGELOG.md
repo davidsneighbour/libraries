@@ -2,6 +2,38 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.2.4](https://github.com/dnb-org/libraries/compare/bootstrap5/v2.2.3...bootstrap5/v2.2.4) (2022-04-12)
+
+
+### Features
+
+* add tailwindcss setup (WIP) ([b3bd478](https://github.com/dnb-org/libraries/commit/b3bd478133612631c7b43bf6816e2baffc876b63))
+
+
+### Documentation
+
+* add davidsneighbour as a contributor for doc, review ([#216](https://github.com/dnb-org/libraries/issues/216)) ([216f485](https://github.com/dnb-org/libraries/commit/216f48560739765af366171b3ec174e2ce85c8d7))
+* add davidsneighbour as a contributor for test, code ([#214](https://github.com/dnb-org/libraries/issues/214)) ([68d4556](https://github.com/dnb-org/libraries/commit/68d4556cef003f9364c0edd4e59dc4a11f7e3712))
+* add ringods as a contributor for code ([#217](https://github.com/dnb-org/libraries/issues/217)) ([8d8def2](https://github.com/dnb-org/libraries/commit/8d8def2b5abaae56cd745bd935170fb8f08fcd51))
+* fix badges ([0ccbe52](https://github.com/dnb-org/libraries/commit/0ccbe528f1057ab76fa8d81f1f86db005ab34528))
+* pull badges together ([498a534](https://github.com/dnb-org/libraries/commit/498a5342a4cef887e4b48483c5163593f1c6c7f0))
+* update README order ([a18fffe](https://github.com/dnb-org/libraries/commit/a18fffeb12a0a63e491dfe3556c6682d9ff75a32))
+* updated all references to the correct GH organization and repo ([#349](https://github.com/dnb-org/libraries/issues/349)) ([0676115](https://github.com/dnb-org/libraries/commit/067611583977c27073b7cef892c8fa8c106df379))
+
+
+### Chore
+
+* **config:** initializing this library as a Hugo module ([#218](https://github.com/dnb-org/libraries/issues/218)) ([fa00e9d](https://github.com/dnb-org/libraries/commit/fa00e9d62b852ddd2c690238fc2e416585302565))
+* **config:** smaller contributor icons ([1f154bc](https://github.com/dnb-org/libraries/commit/1f154bc9440964175cc09147b404e7fac353be59))
+* deprecating bootstrap-icons module ([e834f64](https://github.com/dnb-org/libraries/commit/e834f64f48ffedfde2d93832c795a2e49f92053d))
+* deprecating heroicons module ([b0ae428](https://github.com/dnb-org/libraries/commit/b0ae428b64bc41beeeaf5ee4ff9126b6b36323d2))
+* **deps:** update dependencies ([7d61bff](https://github.com/dnb-org/libraries/commit/7d61bff9b8a0217050bd2290103e0a5b06526eec))
+* **deps:** update dependencies ([c328699](https://github.com/dnb-org/libraries/commit/c32869986fd2a70d2dfee76072d3df8779c60542))
+* **deps:** update dependencies ([38da4eb](https://github.com/dnb-org/libraries/commit/38da4ebe0c642410e1a1730ed037b63e84108000))
+* **deps:** update hugo dependencies ([c882b54](https://github.com/dnb-org/libraries/commit/c882b54c1ac3fe35013dd8935dc790bf8d7c1bc9))
+* **fix:** release scripts locations ([5644883](https://github.com/dnb-org/libraries/commit/5644883af9452b9da426ced383d99fb1b4a86dbe))
+* move from dnb-org to davidsneighbour ([defb596](https://github.com/dnb-org/libraries/commit/defb5969273708791fe59a1c77cbf28aa549066b))
+
 ### [2.2.3](https://github.com/davidsneighbour/libraries/compare/bootstrap5/v2.2.2...bootstrap5/v2.2.3) (2021-10-29)
 
 
