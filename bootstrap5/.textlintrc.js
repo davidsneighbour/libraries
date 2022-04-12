@@ -1,2 +1,2 @@
-const defaultTextlintConfig = require('@dnb-org/textlint-config');
+const defaultTextlintConfig = require('@davidsneighbour/textlint-config');
 module.exports = defaultTextlintConfig;

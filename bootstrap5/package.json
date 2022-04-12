@@ -1,26 +1,26 @@
 {
-  "name": "@dnb-org-libraries/bootstrap5",
+  "name": "@davidsneighbour/bootstrap5",
   "description": "Bootstrap 5 for Hugo",
   "version": "2.2.3",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
   "bugs": {
-    "url": "https://github.com/dnb-org/libraries/issues"
+    "url": "https://github.com/davidsneighbour/libraries/issues"
   },
   "commitlint": {
     "extends": [
-      "@dnb-org/commitlint-config"
+      "@davidsneighbour/commitlint-config"
     ]
   },
   "devDependencies": {
-    "@dnb-org/browserslist-config": "3.4.0",
-    "@dnb-org/commitlint-config": "3.4.1",
-    "@dnb-org/eslint-config": "3.4.14",
-    "@dnb-org/remark-config": "3.4.1",
-    "@dnb-org/standard-version-config": "3.4.0",
-    "@dnb-org/stylelint-config": "3.4.0",
-    "@dnb-org/textlint-config": "3.4.0"
+    "@davidsneighbour/browserslist-config": "4.0.0",
+    "@davidsneighbour/commitlint-config": "4.0.0",
+    "@davidsneighbour/eslint-config": "4.0.0",
+    "@davidsneighbour/remark-config": "4.0.0",
+    "@davidsneighbour/standard-version-config": "4.0.0",
+    "@davidsneighbour/stylelint-config": "4.0.0",
+    "@davidsneighbour/textlint-config": "4.0.0"
   },
-  "homepage": "https://github.com/dnb-org/libraries/tree/master/bootstrap5",
+  "homepage": "https://github.com/davidsneighbour/libraries/tree/master/bootstrap5",
   "license": "MIT",
   "private": true,
   "scripts": {
@@ -29,6 +29,6 @@
     "release:next": "standard-version --release-as minor -a -t \"bootstrap5/v\" --releaseCommitMessageFormat \"chore(release): bootstrap5/v{{currentTag}}\" && ./bin/release-hook-postrelease.sh"
   },
   "dependencies": {
-    "@popperjs/core": "^2.11.0"
+    "@popperjs/core": "^2.11.5"
   }
 }
