@@ -1,3 +1,3 @@
-module github.com/dnb-org/libraries/tailwindcss
+module github.com/davidsneighbour/libraries/tailwindcss
 
 go 1.16
