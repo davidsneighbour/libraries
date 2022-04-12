@@ -1,16 +1,16 @@
 {
-  "name": "@dnb-org/libraries",
+  "name": "@davidsneighbour/libraries",
   "description": "A collection of modules for the tools and libraries that are being used in DNB-Hugo productions.",
   "version": "2.0.0",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
   "bugs": {
-    "url": "https://github.com/dnb-org/libraries/issues"
+    "url": "https://github.com/davidsneighbour/libraries/issues"
   },
-  "homepage": "https://github.com/dnb-org/libraries#readme",
+  "homepage": "https://github.com/davidsneighbour/libraries#readme",
   "license": "MIT",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dnb-org/libraries.git"
+    "url": "git+https://github.com/davidsneighbour/libraries.git"
   }
 }
