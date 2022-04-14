@@ -2,6 +2,23 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.2.5](https://github.com/davidsneighbour/libraries/compare/bootstrap5/v2.2.4...bootstrap5/v2.2.5) (2022-04-14)
+
+
+### Chore
+
+* move from dnb-org to davidsneighbour ([4ff332b](https://github.com/davidsneighbour/libraries/commit/4ff332b5913ca3fd804a4e340ea6c76ae99e7e6b))
+* move from dnb-org to davidsneighbour ([c5fa6c7](https://github.com/davidsneighbour/libraries/commit/c5fa6c72639b9acf2030a143f7af81ed0f7bd41b))
+* move from dnb-org to davidsneighbour ([6d65364](https://github.com/davidsneighbour/libraries/commit/6d65364daf24698fda7abdf8ecad9a7b589bfabb))
+* move from dnb-org to davidsneighbour ([f78652f](https://github.com/davidsneighbour/libraries/commit/f78652ff02b687e6bdbe3dcedfe016ce43d33bef))
+* **release:** dayjs/v1.0.6 ([3463b4d](https://github.com/davidsneighbour/libraries/commit/3463b4df6181bbfec160c19c447d0370a4d48b4d))
+* **release:** dayjs/v1.0.7 ([73ad6da](https://github.com/davidsneighbour/libraries/commit/73ad6dadeb624c9bae756f9db784401303bceab7))
+* **release:** lazysizes/v1.1.5 ([72c40f3](https://github.com/davidsneighbour/libraries/commit/72c40f3b43ac54df1867a846a3e57f571625e434))
+* **release:** lunrjs/v1.1.3 ([f44208d](https://github.com/davidsneighbour/libraries/commit/f44208dc2904a0be3a2258cbeb751fb62238eb59))
+* **release:** lunrjs/v1.1.4 ([99a1678](https://github.com/davidsneighbour/libraries/commit/99a16788401418154b812fae22f2bca62bc0a94a))
+* **release:** tailwindcss/v0.0.2 ([0bc471d](https://github.com/davidsneighbour/libraries/commit/0bc471d94b9a18bfc4802831a7860c297f4eeb28))
+* update dependencies, fix packages ([570ad85](https://github.com/davidsneighbour/libraries/commit/570ad852323d8c873d6a31dcdbfb73b5108d60dd))
+
 ### [2.2.4](https://github.com/dnb-org/libraries/compare/bootstrap5/v2.2.3...bootstrap5/v2.2.4) (2022-04-12)
 
 

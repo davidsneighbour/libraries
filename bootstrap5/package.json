@@ -1,7 +1,7 @@
 {
   "name": "@davidsneighbour/bootstrap5",
   "description": "Bootstrap 5 for Hugo",
-  "version": "2.2.4",
+  "version": "2.2.5",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
   "bugs": {
     "url": "https://github.com/davidsneighbour/libraries/issues"
