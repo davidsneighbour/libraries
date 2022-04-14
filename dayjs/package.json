@@ -1,6 +1,6 @@
 {
   "name": "@davidsneighbour/dayjs",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "dayjs for Hugo",
   "author": "Patrick Kollitsch <patrick@davids-neighbour.com>",
   "homepage": "https://github.com/davidsneighbour/libraries/tree/master/dayjs",
