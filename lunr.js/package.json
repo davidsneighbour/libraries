@@ -14,7 +14,7 @@
     "url": "https://github.com/davidsneighbour/libraries/issues"
   },
   "devDependencies": {
-    "standard-version": "9.3.2",
+    "standard-version": "9.5.0",
     "@commitlint/cli": "15.0.0",
     "@commitlint/config-conventional": "15.0.0"
   },
