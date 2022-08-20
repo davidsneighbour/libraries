@@ -8,17 +8,11 @@
   },
   "commitlint": {
     "extends": [
-      "@davidsneighbour/commitlint-config"
+      "@davidsneighbour/config/commitlint"
     ]
   },
   "devDependencies": {
-    "@davidsneighbour/browserslist-config": "4.0.0",
-    "@davidsneighbour/commitlint-config": "4.0.0",
-    "@davidsneighbour/eslint-config": "4.0.0",
-    "@davidsneighbour/remark-config": "4.0.0",
-    "@davidsneighbour/standard-version-config": "4.0.0",
-    "@davidsneighbour/stylelint-config": "4.0.0",
-    "@davidsneighbour/textlint-config": "4.0.0"
+    "@davidsneighbour/config": "1.0.19"
   },
   "homepage": "https://github.com/davidsneighbour/libraries/tree/master/bootstrap5",
   "license": "MIT",
@@ -29,6 +23,6 @@
     "release:next": "standard-version --release-as minor -a -t \"bootstrap5/v\" --releaseCommitMessageFormat \"chore(release): bootstrap5/v{{currentTag}}\" && ./bin/release-hook-postrelease.sh"
   },
   "dependencies": {
-    "@popperjs/core": "^2.11.5"
+    "@popperjs/core": "^2.11.6"
   }
 }

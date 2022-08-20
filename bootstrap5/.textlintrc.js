@@ -1,2 +1,2 @@
-const defaultTextlintConfig = require('@davidsneighbour/textlint-config');
+const defaultTextlintConfig = require('@davidsneighbour/config/textlint');
 module.exports = defaultTextlintConfig;
