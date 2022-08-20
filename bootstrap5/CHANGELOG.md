@@ -2,6 +2,21 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [2.2.6](https://github.com/davidsneighbour/libraries/compare/bootstrap5/v2.2.5...bootstrap5/v2.2.6) (2022-08-20)
+
+
+### Chore
+
+* **config:** update configurations ([806c969](https://github.com/davidsneighbour/libraries/commit/806c96982cb420bfa6cdfa9bfc3d1780a4da6e64))
+* **deps:** update popperjs library ([ac01440](https://github.com/davidsneighbour/libraries/commit/ac014405d38aa0e857001eb895ed39970ea734f1))
+* **release:** dayjs/v1.0.8 ([43aa774](https://github.com/davidsneighbour/libraries/commit/43aa77445661e2566fa88a5b9c9810ca9b8b3e27))
+* **release:** lazysizes/v1.1.6 ([63108bb](https://github.com/davidsneighbour/libraries/commit/63108bba760ecd7d79596b96ba7659b3a81486a2))
+* **release:** lunrjs/v1.1.5 ([b2038c3](https://github.com/davidsneighbour/libraries/commit/b2038c3c86c1cef65578dd71987e15236293fa26))
+* **release:** tailwindcss/v0.0.2 ([c044ad2](https://github.com/davidsneighbour/libraries/commit/c044ad20711ce2cff3eed1dd5f34857b3d6ec45b))
+* **release:** tailwindcss/v0.0.2 ([298d41a](https://github.com/davidsneighbour/libraries/commit/298d41a66b7bafa01814e328d0087082a6b8431b))
+* **release:** tailwindcss/v0.0.2 ([1e9968c](https://github.com/davidsneighbour/libraries/commit/1e9968c5e75c83d09d36ee72f7d10c698ec25b86))
+* **release:** tailwindcss/v0.0.5 ([3455b92](https://github.com/davidsneighbour/libraries/commit/3455b92f4e331010968578972f8e0a77d243ae48))
+
 ### [2.2.5](https://github.com/davidsneighbour/libraries/compare/bootstrap5/v2.2.4...bootstrap5/v2.2.5) (2022-04-14)
 
 
