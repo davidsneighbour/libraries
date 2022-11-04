@@ -12,7 +12,7 @@
     ]
   },
   "devDependencies": {
-    "@davidsneighbour/config": "1.0.19"
+    "@davidsneighbour/config": "1.0.41"
   },
   "homepage": "https://github.com/davidsneighbour/libraries/tree/master/bootstrap5",
   "license": "MIT",
